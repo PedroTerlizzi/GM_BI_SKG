@@ -63,6 +63,7 @@
     "ReportTitle": "Recetados vs Comprados",
     "ReportAllowedProfileIDs": [
       1,
+      3,
       6,
       16
     ],
