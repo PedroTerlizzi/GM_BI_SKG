@@ -39,7 +39,7 @@
       16
     ],
     "ReportVersion": "V1.1",
-    "ReportIsActive": true,
+    "ReportIsActive": false,
     "ReportNeedClinics": false,
     "ReportNeedDates": false,
     "ReportHasFilters": false,
