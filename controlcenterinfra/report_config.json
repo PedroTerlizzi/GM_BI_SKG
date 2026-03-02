@@ -1,0 +1,60 @@
+[
+  {
+    "ReportID": 1,
+    "ReportParentCode": "CATALOGS",
+    "ReportDisplayOrder": 1,
+    "ReportName": "Cat?logo de sucursales",
+    "ReportTitle": "Cat?logo de sucursales",
+    "ReportAllowedProfileIDs": [
+      1201600,
+      0,
+      0,
+      500
+    ],
+    "ReportVersion": "V1.0",
+    "ReportIsActive": true,
+    "ReportNeedClinics": false,
+    "ReportNeedDates": false,
+    "ReportHasFilters": false,
+    "ReportFiltersSqlFile": null,
+    "ReportFiltersDefaultValues": null,
+    "ReportDataHorizontalScroll": false,
+    "ReportDataSumPerRow": false,
+    "ReportDataSumPerColumn": false,
+    "ReportDataSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/Catalogo_Sucursales.sql",
+    "ReportHasKPIs": false,
+    "ReportKPIsSqlFile": null,
+    "ReportHasGraph": false,
+    "ReportGraphConfig": null,
+    "ReportGraphSqlFile": null
+  },
+  {
+    "ReportID": 2,
+    "ReportParentCode": "CATALOGS",
+    "ReportDisplayOrder": 2,
+    "ReportName": "Cat?logo de usuarios",
+    "ReportTitle": "Cat?logo de usuarios",
+    "ReportAllowedProfileIDs": [
+      1201600,
+      0,
+      0,
+      500
+    ],
+    "ReportVersion": "V1.0",
+    "ReportIsActive": true,
+    "ReportNeedClinics": false,
+    "ReportNeedDates": false,
+    "ReportHasFilters": false,
+    "ReportFiltersSqlFile": null,
+    "ReportFiltersDefaultValues": null,
+    "ReportDataHorizontalScroll": false,
+    "ReportDataSumPerRow": false,
+    "ReportDataSumPerColumn": false,
+    "ReportDataSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/Catalogo_Usuarios.sql",
+    "ReportHasKPIs": false,
+    "ReportKPIsSqlFile": null,
+    "ReportHasGraph": false,
+    "ReportGraphConfig": null,
+    "ReportGraphSqlFile": null
+  }
+]
