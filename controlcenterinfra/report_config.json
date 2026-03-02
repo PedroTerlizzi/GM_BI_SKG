@@ -3,13 +3,12 @@
     "ReportID": 1,
     "ReportParentCode": "CATALOGS",
     "ReportDisplayOrder": 1,
-    "ReportName": "Cat?logo de sucursales",
-    "ReportTitle": "Cat?logo de sucursales",
+    "ReportName": "Catálogo de sucursales",
+    "ReportTitle": "Catálogo de sucursales",
     "ReportAllowedProfileIDs": [
-      1201600,
-      0,
-      0,
-      500
+      1,
+      6,
+      16
     ],
     "ReportVersion": "V1.0",
     "ReportIsActive": true,
@@ -32,13 +31,12 @@
     "ReportID": 2,
     "ReportParentCode": "CATALOGS",
     "ReportDisplayOrder": 2,
-    "ReportName": "Cat?logo de usuarios",
-    "ReportTitle": "Cat?logo de usuarios",
+    "ReportName": "Catálogo de usuarios",
+    "ReportTitle": "Catálogo de usuarios",
     "ReportAllowedProfileIDs": [
-      1201600,
-      0,
-      0,
-      500
+      1,
+      6,
+      16
     ],
     "ReportVersion": "V1.0",
     "ReportIsActive": true,
