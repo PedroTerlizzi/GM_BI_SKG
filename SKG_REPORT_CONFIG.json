@@ -80,8 +80,8 @@
     "ReportDataSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/RECETADO_COMPRADO_INDIVIDUAL_DATA.sql",
     "ReportHasKPIs": true,
     "ReportKPIsSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/RECETADO_COMPRADO_INDIVIDUAL_KPIS.sql",
-    "ReportHasGraph": false,
-    "ReportGraphConfig": null,
-    "ReportGraphSqlFile": null
+    "ReportHasGraph": true,
+    "ReportGraphConfig": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/RECETADO_COMPRADO_INDIVIDUAL_GRAPH_CONFIG.json",
+    "ReportGraphSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/RECETADO_COMPRADO_INDIVIDUAL_GRAPH.sql"
   }
 ]
