@@ -59,8 +59,8 @@
     "ReportID": 3,
     "ReportParentCode": "CATALOGS",
     "ReportDisplayOrder": 3,
-    "ReportName": "Productos Recetados vs Comprados (Individual)",
-    "ReportTitle": "Productos Recetados vs Comprados (Individual) ABCD",
+    "ReportName": "Recetados vs Comprados (Individual)",
+    "ReportTitle": "Recetados vs Comprados (Individual) TITLE",
     "ReportAllowedProfileIDs": [
       1,
       3,
@@ -81,7 +81,7 @@
     "ReportHasKPIs": true,
     "ReportKPIsSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/RECETADO_COMPRADO_INDIVIDUAL_KPIS.sql",
     "ReportHasGraph": true,
-    "ReportGraphConfig": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/RECETADO_COMPRADO_INDIVIDUAL_GRAPH_CONFIG.json",
+    "ReportGraphConfig": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/RECETADO_COMPRADO_INDIVIDUAL_GCONFIG.json",
     "ReportGraphSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/RECETADO_COMPRADO_INDIVIDUAL_GRAPH.sql"
   }
 ]
