@@ -60,7 +60,7 @@
     "ReportParentCode": "CATALOGS",
     "ReportDisplayOrder": 3,
     "ReportName": "Productos Recetados vs Comprados (Individual)",
-    "ReportTitle": "Productos Recetados vs Comprados (Individual) TITLE",
+    "ReportTitle": "Productos Recetados vs Comprados (Individual) ABCD",
     "ReportAllowedProfileIDs": [
       1,
       3,
