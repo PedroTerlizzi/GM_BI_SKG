@@ -4,7 +4,7 @@
     "ReportParentCode": "CATALOGS",
     "ReportDisplayOrder": 1,
     "ReportName": "Catálogo de sucursales",
-    "ReportTitle": "Catálogo de sucursales",
+    "ReportTitle": "Catálogo de sucursales TITLE",
     "ReportAllowedProfileIDs": [
       1,
       6,
@@ -32,7 +32,7 @@
     "ReportParentCode": "CATALOGS",
     "ReportDisplayOrder": 2,
     "ReportName": "Catálogo de usuarios",
-    "ReportTitle": "Catálogo de usuarios",
+    "ReportTitle": "Catálogo de usuarios TITLE",
     "ReportAllowedProfileIDs": [
       1,
       6,
@@ -60,7 +60,7 @@
     "ReportParentCode": "CATALOGS",
     "ReportDisplayOrder": 3,
     "ReportName": "Recetados vs Comprados (Individual)",
-    "ReportTitle": "Recetados vs Comprados (Individual)",
+    "ReportTitle": "Recetados vs Comprados (Individual) TITLE",
     "ReportAllowedProfileIDs": [
       1,
       3,
