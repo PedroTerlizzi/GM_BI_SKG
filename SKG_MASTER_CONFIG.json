@@ -30,13 +30,26 @@
   "PathPolicyEndpoint": "https://docs.google.com/document/d/e/2PACX-1vTszuCNTD0hNcixhirg3ED2lTjMp3iq34CXJRXciai3hIVMqk_OOZNDimhQH_EYjhzNqLHg1f2_d1kn/pub",
   "PathLogEndpoint": "https://script.google.com/macros/s/AKfycbzi6kk52zAATTBbzWqgm55VDgYgmbpa1cAqrGjTpl8t2DN-HMwCmuRP1DYHNb7Mnmm56w/exec",
   "SecuritySuperAdminUserIDs": [
-    231
+    230,
+    231,
+    234,
+    279,
+    295,
+    296,
+    297,
+    301,
+    344,
+    366,
+    378
   ],
   "SecurityDeveloperUserIDs": [
     230,
-    344
+    344,
+    378
   ],
   "SecurityDeveloperToolUserIDs": [
+    230,
+    344,
     378
   ],
   "SecuritySuperAdminProfileIDs": [
@@ -59,7 +72,7 @@
     9,
     10
   ],
-  "UITitle": "Skingroup Control Center - Catalogos",
+  "UITitle": "Skingroup Control Center",
   "UIFooterDisclaimerText1": "Resultados del periodo en curso, sujetos a consolidacion operativa.",
   "UIFooterDisclaimerText2": "Informacion de la operacion registrada en Flowww (MPro no incluido)",
   "UIFooterDisclaimerText3": "Aclaraciones:",
