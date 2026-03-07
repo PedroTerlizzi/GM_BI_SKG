@@ -111,5 +111,33 @@
     "ReportHasGraph": true,
     "ReportGraphConfig": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/MOVIMIENTOS_INVENTARIO_GCONFIG.json",
     "ReportGraphSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/MOVIMIENTOS_INVENTARIO_GRAPH.sql"
+  },
+  {
+    "ReportID": 5,
+    "ReportParentCode": "CATALOGS",
+    "ReportDisplayOrder": 5,
+    "ReportName": "Estatus de Inventario",
+    "ReportTitle": "Estatus de Inventario",
+    "ReportAllowedProfileIDs": [
+      1,
+      6,
+      16
+    ],
+    "ReportVersion": "V1.0",
+    "ReportIsActive": true,
+    "ReportNeedClinics": false,
+    "ReportNeedDates": false,
+    "ReportHasFilters": true,
+    "ReportFiltersSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/ESTATUS_INVENTARIO_FILTER.sql",
+    "ReportFiltersDefaultValues": null,
+    "ReportDataHorizontalScroll": true,
+    "ReportDataSumPerRow": false,
+    "ReportDataSumPerColumn": false,
+    "ReportDataSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/ESTATUS_INVENTARIO_DATA.sql",
+    "ReportHasKPIs": true,
+    "ReportKPIsSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/ESTATUS_INVENTARIO_KPIS.sql",
+    "ReportHasGraph": true,
+    "ReportGraphConfig": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/ESTATUS_INVENTARIO_GCONFIG.json",
+    "ReportGraphSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/ESTATUS_INVENTARIO_GRAPH.sql"
   }
 ]
