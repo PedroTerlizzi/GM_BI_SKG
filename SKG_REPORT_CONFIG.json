@@ -3,8 +3,8 @@
     "ReportID": 1,
     "ReportParentCode": "CATALOGS",
     "ReportDisplayOrder": 1,
-    "ReportName": "Catálogo de sucursales",
-    "ReportTitle": "Catálogo de sucursales",
+    "ReportName": "Directorio de Sucursales",
+    "ReportTitle": "Directorio de Sucursales",
     "ReportAllowedProfileIDs": [
       1,
       6,
@@ -31,14 +31,14 @@
     "ReportID": 2,
     "ReportParentCode": "CATALOGS",
     "ReportDisplayOrder": 2,
-    "ReportName": "Catálogo de usuarios",
-    "ReportTitle": "Catálogo de usuarios",
+    "ReportName": "Directorio de Usuarios",
+    "ReportTitle": "Directorio de Usuarios",
     "ReportAllowedProfileIDs": [
       1,
       6,
       16
     ],
-    "ReportVersion": "V1.1",
+    "ReportVersion": "V1.0",
     "ReportIsActive": true,
     "ReportNeedClinics": false,
     "ReportNeedDates": false,
@@ -83,5 +83,33 @@
     "ReportHasGraph": true,
     "ReportGraphConfig": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/RECETADO_COMPRADO_INDIVIDUAL_GCONFIG.json",
     "ReportGraphSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/RECETADO_COMPRADO_INDIVIDUAL_GRAPH.sql"
+  },
+  {
+    "ReportID": 4,
+    "ReportParentCode": "CATALOGS",
+    "ReportDisplayOrder": 4,
+    "ReportName": "Movimientos de Inventario",
+    "ReportTitle": "Movimientos de Inventario",
+    "ReportAllowedProfileIDs": [
+      1,
+      6,
+      16
+    ],
+    "ReportVersion": "V1.0",
+    "ReportIsActive": true,
+    "ReportNeedClinics": false,
+    "ReportNeedDates": false,
+    "ReportHasFilters": true,
+    "ReportFiltersSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/MOVIMIENTOS_INVENTARIO_FILTER.sql",
+    "ReportFiltersDefaultValues": null,
+    "ReportDataHorizontalScroll": true,
+    "ReportDataSumPerRow": false,
+    "ReportDataSumPerColumn": false,
+    "ReportDataSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/MOVIMIENTOS_INVENTARIO_DATA.sql",
+    "ReportHasKPIs": true,
+    "ReportKPIsSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/MOVIMIENTOS_INVENTARIO_KPIS.sql",
+    "ReportHasGraph": true,
+    "ReportGraphConfig": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/MOVIMIENTOS_INVENTARIO_GCONFIG.json",
+    "ReportGraphSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/MOVIMIENTOS_INVENTARIO_GRAPH.sql"
   }
 ]
