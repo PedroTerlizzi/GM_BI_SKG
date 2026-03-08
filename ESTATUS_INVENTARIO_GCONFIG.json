@@ -1,0 +1,62 @@
+{
+  "engine": "chartjs",
+  "chartType": "bar",
+  "options": {
+    "legend": false,
+    "stacked": true,
+    "legendPosition": "bottom"
+  },
+  "palette": [
+    "#9085E9",
+    "#E985AC",
+    "#DEE985",
+    "#85E9C2",
+    "#D0CDEA"
+  ],
+  "chart": {
+    "type": "bar",
+    "stacked": true,
+    "responsive": true,
+    "maintainAspectRatio": false
+  },
+  "mapping": {
+    "label": "LabelTitle",
+    "value": "Value1",
+    "series": "SeriesTitle",
+    "labelId": "LabelID",
+    "labelTitle": "LabelTitle",
+    "seriesId": "SeriesID",
+    "seriesTitle": "SeriesTitle",
+    "valueField": "Value1",
+    "amountField": "Value2"
+  },
+  "sorting": {
+    "labelsBy": "LabelID",
+    "seriesBy": "SeriesID"
+  },
+  "axes": {
+    "xTitle": "Estatus Inventario",
+    "yTitle": "$ Valor",
+    "yBeginAtZero": true,
+    "yDecimals": 2
+  },
+  "tooltip": {
+    "showAmount": true,
+    "locale": "en-US",
+    "valueDecimals": 2,
+    "amountPrefix": "Delta: $",
+    "amountDecimals": 2
+  },
+  "animation": {
+    "enabled": true,
+    "duration": 900,
+    "easing": "easeOutQuart",
+    "baseDelay": 0,
+    "dataDelay": 90,
+    "datasetDelay": 120
+  },
+  "seriesStyle": {
+    "Base": "rgba(0,0,0,0)",
+    "Flujo": "#9085E9"
+  }
+}
