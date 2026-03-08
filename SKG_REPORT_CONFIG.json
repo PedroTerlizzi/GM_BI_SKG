@@ -117,7 +117,7 @@
     "ReportParentCode": "CATALOGS",
     "ReportDisplayOrder": 5,
     "ReportName": "Estatus de Inventario",
-    "ReportTitle": "Estatus de Inventario",
+    "ReportTitle": "Estatus de Inventario (Valores a Costo c/ IVA)",
     "ReportAllowedProfileIDs": [
       1,
       6,
