@@ -44,6 +44,47 @@
     "ReportID": 2,
     "ReportParentCode": "CATALOGS",
     "ReportDisplayOrder": 2,
+    "ReportName": "Directorio de Cabinas",
+    "ReportTitle": "Directorio de Cabinas",
+    "ReportAllowedProfileIDs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      100,
+      101
+    ],
+    "ReportVersion": "V1.0",
+    "ReportIsActive": true,
+    "ReportNeedClinics": false,
+    "ReportNeedDates": false,
+    "ReportHasFilters": false,
+    "ReportFiltersSqlFile": null,
+    "ReportFiltersDefaultValues": null,
+    "ReportDataHorizontalScroll": true,
+    "ReportDataSumPerRow": false,
+    "ReportDataSumPerColumn": false,
+    "ReportDataSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/DIRECTORIO_CABINAS.sql",
+    "ReportHasKPIs": false,
+    "ReportKPIsSqlFile": null,
+    "ReportHasGraph": false,
+    "ReportGraphConfig": null,
+    "ReportGraphSqlFile": null
+  },
+  {
+    "ReportID": 3,
+    "ReportParentCode": "CATALOGS",
+    "ReportDisplayOrder": 3,
     "ReportName": "Directorio de Usuarios",
     "ReportTitle": "Directorio de Usuarios",
     "ReportAllowedProfileIDs": [
@@ -82,9 +123,50 @@
     "ReportGraphSqlFile": null
   },
   {
-    "ReportID": 3,
+    "ReportID": 4,
     "ReportParentCode": "CATALOGS",
-    "ReportDisplayOrder": 3,
+    "ReportDisplayOrder": 4,
+    "ReportName": "Catálogo de Equipos",
+    "ReportTitle": "Catálogo de Equipos",
+    "ReportAllowedProfileIDs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      100,
+      101
+    ],
+    "ReportVersion": "V1.0",
+    "ReportIsActive": true,
+    "ReportNeedClinics": false,
+    "ReportNeedDates": false,
+    "ReportHasFilters": false,
+    "ReportFiltersSqlFile": null,
+    "ReportFiltersDefaultValues": null,
+    "ReportDataHorizontalScroll": true,
+    "ReportDataSumPerRow": false,
+    "ReportDataSumPerColumn": false,
+    "ReportDataSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/CATALOGO_EQUIPOS.sql",
+    "ReportHasKPIs": false,
+    "ReportKPIsSqlFile": null,
+    "ReportHasGraph": false,
+    "ReportGraphConfig": null,
+    "ReportGraphSqlFile": null
+  },
+  {
+    "ReportID": 5,
+    "ReportParentCode": "CATALOGS",
+    "ReportDisplayOrder": 5,
     "ReportName": "Catálogo de Servicios",
     "ReportTitle": "Catálogo de Servicios",
     "ReportAllowedProfileIDs": [
@@ -123,9 +205,9 @@
     "ReportGraphSqlFile": null
   },
   {
-    "ReportID": 4,
+    "ReportID": 6,
     "ReportParentCode": "CATALOGS",
-    "ReportDisplayOrder": 4,
+    "ReportDisplayOrder": 6,
     "ReportName": "Catálogo de Bonos",
     "ReportTitle": "Catálogo de Bonos (anticipo/pre-pago)",
     "ReportAllowedProfileIDs": [
@@ -164,9 +246,9 @@
     "ReportGraphSqlFile": null
   },
   {
-    "ReportID": 5,
+    "ReportID": 7,
     "ReportParentCode": "CATALOGS",
-    "ReportDisplayOrder": 5,
+    "ReportDisplayOrder": 7,
     "ReportName": "Catálogo de Insumos",
     "ReportTitle": "Catálogo de Insumos",
     "ReportAllowedProfileIDs": [
@@ -205,9 +287,9 @@
     "ReportGraphSqlFile": null
   },
   {
-    "ReportID": 6,
+    "ReportID": 8,
     "ReportParentCode": "CATALOGS",
-    "ReportDisplayOrder": 6,
+    "ReportDisplayOrder": 8,
     "ReportName": "Catálogo de Productos",
     "ReportTitle": "Catálogo de Productos",
     "ReportAllowedProfileIDs": [
@@ -246,9 +328,9 @@
     "ReportGraphSqlFile": null
   },
   {
-    "ReportID": 7,
+    "ReportID": 9,
     "ReportParentCode": "CATALOGS",
-    "ReportDisplayOrder": 7,
+    "ReportDisplayOrder": 9,
     "ReportName": "Recetados vs Comprados (Individual)",
     "ReportTitle": "Recetados vs Comprados (Individual)",
     "ReportAllowedProfileIDs": [
@@ -272,9 +354,9 @@
     "ReportGraphSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/RECETADO_COMPRADO_INDIVIDUAL_GRAPH.sql"
   },
   {
-    "ReportID": 8,
+    "ReportID": 10,
     "ReportParentCode": "CATALOGS",
-    "ReportDisplayOrder": 8,
+    "ReportDisplayOrder": 10,
     "ReportName": "Movimientos de Inventario",
     "ReportTitle": "Movimientos de Inventario (Valores a costo c/ IVA)",
     "ReportAllowedProfileIDs": [
@@ -303,9 +385,9 @@
     "ReportGraphSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/MOVIMIENTOS_INVENTARIO_GRAPH.sql"
   },
   {
-    "ReportID": 9,
+    "ReportID": 11,
     "ReportParentCode": "CATALOGS",
-    "ReportDisplayOrder": 9,
+    "ReportDisplayOrder": 11,
     "ReportName": "Estatus de Inventario",
     "ReportTitle": "Estatus de Inventario (Valores a costo c/ IVA)",
     "ReportAllowedProfileIDs": [
