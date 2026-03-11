@@ -139,5 +139,34 @@
     "ReportHasGraph": true,
     "ReportGraphConfig": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/ESTATUS_INVENTARIO_GCONFIG.json",
     "ReportGraphSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/ESTATUS_INVENTARIO_GRAPH.sql"
+  },
+  {
+    "ReportID": 6,
+    "ReportParentCode": "CATALOGS",
+    "ReportDisplayOrder": 6,
+    "ReportName": "Catálogo de Servicios",
+    "ReportTitle": "Catálogo de Servicios",
+    "ReportAllowedProfileIDs": [
+      1,
+      3,
+      6,
+      16
+    ],
+    "ReportVersion": "V1.0",
+    "ReportIsActive": true,
+    "ReportNeedClinics": false,
+    "ReportNeedDates": false,
+    "ReportHasFilters": true,
+    "ReportFiltersSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/CATALOGO_SERVICIOS_FILTER.sql",
+    "ReportFiltersDefaultValues": null,
+    "ReportDataHorizontalScroll": true,
+    "ReportDataSumPerRow": false,
+    "ReportDataSumPerColumn": false,
+    "ReportDataSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/CATALOGO_SERVICIOS_DATA.sql",
+    "ReportHasKPIs": false,
+    "ReportKPIsSqlFile": null,
+    "ReportHasGraph": false,
+    "ReportGraphConfig": null,
+    "ReportGraphSqlFile": ""
   }
 ]
