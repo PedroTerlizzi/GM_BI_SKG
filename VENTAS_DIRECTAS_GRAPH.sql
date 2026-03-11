@@ -110,7 +110,7 @@ WHERE IFNULL(td.TicketUnits, 0) <> 0
   AND tg.TicketGCancelled = 0
   AND tg.TicketGSimulated = 0
   AND tg.TicketGClosed = -1
-  AND td.TicketUserID = p.EffectiveUserID
+  AND tg.TicketGUserID = p.EffectiveUserID
   AND FIND_IN_SET(tg.TicketGClinicID, p.EffectiveClinicIDs)
   AND tg.TicketGDate >= DATE_SUB(CURDATE(), INTERVAL 44 DAY)
   AND tg.TicketGDate < DATE_ADD(CURDATE(), INTERVAL 1 DAY)
