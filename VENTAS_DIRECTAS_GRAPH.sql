@@ -47,7 +47,7 @@ LEFT JOIN (
         END AS LabelID,
         CASE
             WHEN IFNULL(td.TicketLaserGID, 0) <> 0 THEN 1
-            WHEN IFNULL(tg.TicketGBudgetID, 0) <> 0 THEN 2
+            WHEN IFNULL(tg.TicketGBudgetID, 0) <> 0 OR IFNULL(bmatch.MatchedBudgetID, 0) <> 0 THEN 2
             ELSE 3
         END AS SeriesID,
         IFNULL(SUM(td.TicketTotalAmount), 0) AS TotalMonto,
@@ -104,6 +104,30 @@ LEFT JOIN x_config_products_fam fam_leaf
 LEFT JOIN x_config_products_fam fam_parent
     ON fam_parent.FamilyID = fam_leaf.FamilyParentID
 
+LEFT JOIN (
+    SELECT
+        bg.BudgetGClinicID,
+        bg.BudgetGUserID,
+        bg.BudgetGClientID,
+        bg.BudgetGDate,
+        bd.BudgetProductID,
+        MIN(bg.BudgetGID) AS MatchedBudgetID
+    FROM budgets_gen bg
+    INNER JOIN budgets_det bd
+        ON bd.BudgetGID = bg.BudgetGID
+    GROUP BY
+        bg.BudgetGClinicID,
+        bg.BudgetGUserID,
+        bg.BudgetGClientID,
+        bg.BudgetGDate,
+        bd.BudgetProductID
+) bmatch
+    ON bmatch.BudgetGClinicID = tg.TicketGClinicID
+   AND bmatch.BudgetGUserID = tg.TicketGUserID
+   AND bmatch.BudgetGClientID = tg.TicketGClientID
+   AND bmatch.BudgetGDate = tg.TicketGDate
+   AND bmatch.BudgetProductID = td.TicketProductID
+
 /* [SAFE TO MODIFY] BLOCK 4 - BUSINESS FILTERS */
 WHERE IFNULL(td.TicketUnits, 0) <> 0
   AND tg.TicketGErased = 0
@@ -132,7 +156,7 @@ WHERE IFNULL(td.TicketUnits, 0) <> 0
       OR FIND_IN_SET(
             CASE
                 WHEN IFNULL(td.TicketLaserGID, 0) <> 0 THEN 1
-                WHEN IFNULL(tg.TicketGBudgetID, 0) <> 0 THEN 2
+                WHEN IFNULL(tg.TicketGBudgetID, 0) <> 0 OR IFNULL(bmatch.MatchedBudgetID, 0) <> 0 THEN 2
                 ELSE 3
             END,
             p.EffectiveFilter2
@@ -150,7 +174,7 @@ GROUP BY
     END,
     CASE
         WHEN IFNULL(td.TicketLaserGID, 0) <> 0 THEN 1
-        WHEN IFNULL(tg.TicketGBudgetID, 0) <> 0 THEN 2
+        WHEN IFNULL(tg.TicketGBudgetID, 0) <> 0 OR IFNULL(bmatch.MatchedBudgetID, 0) <> 0 THEN 2
         ELSE 3
     END
 ) a

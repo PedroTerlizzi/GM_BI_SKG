@@ -36,7 +36,6 @@ SELECT
                     WHEN 2 THEN IFNULL(a.VentasServicioSesion, 0)
                     WHEN 3 THEN IFNULL(a.VentasConversionReceta, 0)
                     WHEN 4 THEN IFNULL(a.VentasOrigenNoRegistrada, 0)
-                    WHEN 5 THEN IFNULL(a.TotalDescuentos, 0)
                     ELSE 0
                 END
             ) < 0 THEN '-$'
@@ -49,7 +48,6 @@ SELECT
                     WHEN 2 THEN IFNULL(a.VentasServicioSesion, 0)
                     WHEN 3 THEN IFNULL(a.VentasConversionReceta, 0)
                     WHEN 4 THEN IFNULL(a.VentasOrigenNoRegistrada, 0)
-                    WHEN 5 THEN IFNULL(a.TotalDescuentos, 0)
                     ELSE 0
                 END
             ),
@@ -61,9 +59,8 @@ FROM (
     SELECT
         IFNULL(SUM(td.TicketTotalAmount), 0) AS TotalVentas,
         IFNULL(SUM(CASE WHEN IFNULL(td.TicketLaserGID, 0) <> 0 THEN td.TicketTotalAmount ELSE 0 END), 0) AS VentasServicioSesion,
-        IFNULL(SUM(CASE WHEN IFNULL(td.TicketLaserGID, 0) = 0 AND IFNULL(tg.TicketGBudgetID, 0) <> 0 THEN td.TicketTotalAmount ELSE 0 END), 0) AS VentasConversionReceta,
-        IFNULL(SUM(CASE WHEN IFNULL(td.TicketLaserGID, 0) = 0 AND IFNULL(tg.TicketGBudgetID, 0) = 0 THEN td.TicketTotalAmount ELSE 0 END), 0) AS VentasOrigenNoRegistrada,
-        IFNULL(SUM(IFNULL(td.TicketUnits, 0) * IFNULL(td.TicketDiscountUnitAmountVAT, 0)), 0) AS TotalDescuentos
+        IFNULL(SUM(CASE WHEN IFNULL(td.TicketLaserGID, 0) = 0 AND (IFNULL(tg.TicketGBudgetID, 0) <> 0 OR IFNULL(bmatch.MatchedBudgetID, 0) <> 0) THEN td.TicketTotalAmount ELSE 0 END), 0) AS VentasConversionReceta,
+        IFNULL(SUM(CASE WHEN IFNULL(td.TicketLaserGID, 0) = 0 AND IFNULL(tg.TicketGBudgetID, 0) = 0 AND IFNULL(bmatch.MatchedBudgetID, 0) = 0 THEN td.TicketTotalAmount ELSE 0 END), 0) AS VentasOrigenNoRegistrada
     FROM tickets_det td
 
 /* [DO NOT MODIFY] BLOCK 2 - PARAM RESOLUTION (t + p) */
@@ -116,6 +113,30 @@ LEFT JOIN x_config_products_fam fam_leaf
 LEFT JOIN x_config_products_fam fam_parent
     ON fam_parent.FamilyID = fam_leaf.FamilyParentID
 
+LEFT JOIN (
+    SELECT
+        bg.BudgetGClinicID,
+        bg.BudgetGUserID,
+        bg.BudgetGClientID,
+        bg.BudgetGDate,
+        bd.BudgetProductID,
+        MIN(bg.BudgetGID) AS MatchedBudgetID
+    FROM budgets_gen bg
+    INNER JOIN budgets_det bd
+        ON bd.BudgetGID = bg.BudgetGID
+    GROUP BY
+        bg.BudgetGClinicID,
+        bg.BudgetGUserID,
+        bg.BudgetGClientID,
+        bg.BudgetGDate,
+        bd.BudgetProductID
+) bmatch
+    ON bmatch.BudgetGClinicID = tg.TicketGClinicID
+   AND bmatch.BudgetGUserID = tg.TicketGUserID
+   AND bmatch.BudgetGClientID = tg.TicketGClientID
+   AND bmatch.BudgetGDate = tg.TicketGDate
+   AND bmatch.BudgetProductID = td.TicketProductID
+
 /* [SAFE TO MODIFY] BLOCK 4 - BUSINESS FILTERS */
 WHERE IFNULL(td.TicketUnits, 0) <> 0
   AND tg.TicketGErased = 0
@@ -144,7 +165,7 @@ WHERE IFNULL(td.TicketUnits, 0) <> 0
       OR FIND_IN_SET(
             CASE
                 WHEN IFNULL(td.TicketLaserGID, 0) <> 0 THEN 1
-                WHEN IFNULL(tg.TicketGBudgetID, 0) <> 0 THEN 2
+                WHEN IFNULL(tg.TicketGBudgetID, 0) <> 0 OR IFNULL(bmatch.MatchedBudgetID, 0) <> 0 THEN 2
                 ELSE 3
             END,
             p.EffectiveFilter2
@@ -156,6 +177,5 @@ CROSS JOIN (
     UNION ALL SELECT 2, 'Servicios en sesion', TRUE
     UNION ALL SELECT 3, 'Conversion receta (inmediata)', TRUE
     UNION ALL SELECT 4, 'Origen no registrada', TRUE
-    UNION ALL SELECT 5, 'Total Descuentos', FALSE
 ) k
 ORDER BY k.KPIID;
