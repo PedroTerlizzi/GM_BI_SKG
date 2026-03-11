@@ -40,16 +40,6 @@ SELECT
     IFNULL(fam_parent.FamilyName, 'Otras') AS `Familia`,
     IFNULL(prod_line.ProductDesc, '-') AS `Descripcion Producto/Servicio`,
     CASE
-        WHEN IFNULL(td.TicketLaserGID, 0) <> 0 THEN 'Servicios en sesion'
-        WHEN IFNULL(tg.TicketGBudgetID, 0) <> 0 OR IFNULL(bmatch.MatchedBudgetID, 0) <> 0 THEN 'Conversion receta (inmediata)'
-        ELSE 'Origen no registrada'
-    END AS `Origen`,
-    CASE
-        WHEN IFNULL(td.TicketLaserGID, 0) <> 0 THEN CONCAT('LaserGID ', td.TicketLaserGID)
-        WHEN IFNULL(tg.TicketGBudgetID, 0) <> 0 OR IFNULL(bmatch.MatchedBudgetID, 0) <> 0 THEN CONCAT('BudgetID ', IF(IFNULL(tg.TicketGBudgetID, 0) <> 0, tg.TicketGBudgetID, bmatch.MatchedBudgetID))
-        ELSE '-'
-    END AS `Trazabilidad`,
-    CASE
         WHEN IFNULL(prod_line.ProductPrice, 0) < 0 THEN CONCAT('-$', FORMAT(ABS(IFNULL(prod_line.ProductPrice, 0)), 2))
         ELSE CONCAT('$', FORMAT(IFNULL(prod_line.ProductPrice, 0), 2))
     END AS `Tarifa Actual`,
@@ -67,7 +57,7 @@ SELECT
     CASE
         WHEN IFNULL(td.TicketPriceVAT, 0) < 0 THEN CONCAT('-$', FORMAT(ABS(IFNULL(td.TicketPriceVAT, 0)), 2))
         ELSE CONCAT('$', FORMAT(IFNULL(td.TicketPriceVAT, 0), 2))
-    END AS `Precio Unitario`,
+    END AS `Precio Unitario en Ticket`,
     CASE
         WHEN (IFNULL(td.TicketUnits, 0) * IFNULL(td.TicketDiscountUnitAmountVAT, 0)) < 0 THEN CONCAT('-$', FORMAT(ABS(IFNULL(td.TicketUnits, 0) * IFNULL(td.TicketDiscountUnitAmountVAT, 0)), 2))
         ELSE CONCAT('$', FORMAT(IFNULL(td.TicketUnits, 0) * IFNULL(td.TicketDiscountUnitAmountVAT, 0), 2))
@@ -75,7 +65,17 @@ SELECT
     CASE
         WHEN IFNULL(td.TicketTotalAmount, 0) < 0 THEN CONCAT('-$', FORMAT(ABS(IFNULL(td.TicketTotalAmount, 0)), 2))
         ELSE CONCAT('$', FORMAT(IFNULL(td.TicketTotalAmount, 0), 2))
-    END AS `Precio Final en Ticket`
+    END AS `Precio Final en Ticket`,
+    CASE
+        WHEN IFNULL(td.TicketLaserGID, 0) <> 0 THEN 'Servicios en sesion'
+        WHEN IFNULL(tg.TicketGBudgetID, 0) <> 0 OR IFNULL(bmatch.MatchedBudgetID, 0) <> 0 THEN 'Conversion receta (inmediata)'
+        ELSE 'Origen no registrada'
+    END AS `Origen`,
+    CASE
+        WHEN IFNULL(td.TicketLaserGID, 0) <> 0 THEN CONCAT('LaserGID ', td.TicketLaserGID)
+        WHEN IFNULL(tg.TicketGBudgetID, 0) <> 0 OR IFNULL(bmatch.MatchedBudgetID, 0) <> 0 THEN CONCAT('BudgetID ', IF(IFNULL(tg.TicketGBudgetID, 0) <> 0, tg.TicketGBudgetID, bmatch.MatchedBudgetID))
+        ELSE '-'
+    END AS `Trazabilidad`
 FROM tickets_det td
 
 /* [DO NOT MODIFY] BLOCK 2 - PARAM RESOLUTION (t + p) */
