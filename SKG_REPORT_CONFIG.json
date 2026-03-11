@@ -7,8 +7,21 @@
     "ReportTitle": "Directorio de Sucursales",
     "ReportAllowedProfileIDs": [
       1,
+      2,
+      3,
+      4,
+      5,
       6,
-      16
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      100,
+      101
     ],
     "ReportVersion": "V1.0",
     "ReportIsActive": true,
@@ -35,8 +48,21 @@
     "ReportTitle": "Directorio de Usuarios",
     "ReportAllowedProfileIDs": [
       1,
+      2,
+      3,
+      4,
+      5,
       6,
-      16
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      100,
+      101
     ],
     "ReportVersion": "V1.0",
     "ReportIsActive": true,
@@ -63,9 +89,21 @@
     "ReportTitle": "Catálogo de Servicios",
     "ReportAllowedProfileIDs": [
       1,
+      2,
       3,
+      4,
+      5,
       6,
-      16
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      100,
+      101
     ],
     "ReportVersion": "V1.0",
     "ReportIsActive": true,
@@ -92,9 +130,21 @@
     "ReportTitle": "Catálogo de Bonos (anticipo/pre-pago)",
     "ReportAllowedProfileIDs": [
       1,
+      2,
       3,
+      4,
+      5,
       6,
-      16
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      100,
+      101
     ],
     "ReportVersion": "V1.0",
     "ReportIsActive": true,
@@ -121,9 +171,21 @@
     "ReportTitle": "Catálogo de Insumos",
     "ReportAllowedProfileIDs": [
       1,
+      2,
       3,
+      4,
+      5,
       6,
-      16
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      100,
+      101
     ],
     "ReportVersion": "V1.0",
     "ReportIsActive": true,
@@ -150,9 +212,21 @@
     "ReportTitle": "Catálogo de Productos",
     "ReportAllowedProfileIDs": [
       1,
+      2,
       3,
+      4,
+      5,
       6,
-      16
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      100,
+      101
     ],
     "ReportVersion": "V1.0",
     "ReportIsActive": true,
@@ -178,10 +252,7 @@
     "ReportName": "Recetados vs Comprados (Individual)",
     "ReportTitle": "Recetados vs Comprados (Individual)",
     "ReportAllowedProfileIDs": [
-      1,
-      3,
-      6,
-      16
+      3
     ],
     "ReportVersion": "V1.0",
     "ReportIsActive": true,
@@ -208,8 +279,11 @@
     "ReportTitle": "Movimientos de Inventario",
     "ReportAllowedProfileIDs": [
       1,
+      5,
       6,
-      16
+      16,
+      100,
+      101
     ],
     "ReportVersion": "V1.0",
     "ReportIsActive": true,
@@ -236,8 +310,11 @@
     "ReportTitle": "Estatus de Inventario (Valores a Costo c/ IVA)",
     "ReportAllowedProfileIDs": [
       1,
+      5,
       6,
-      16
+      16,
+      100,
+      101
     ],
     "ReportVersion": "V1.0",
     "ReportIsActive": true,
