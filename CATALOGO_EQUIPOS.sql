@@ -33,18 +33,18 @@
 /* [SAFE TO MODIFY] BLOCK 1 - OUTPUT SELECT */
 SELECT
     s.Equipo AS `Equipo`,
-    IFNULL(MAX(CASE WHEN s.ClinicID = 1  THEN s.SucursalValor END), 'N/D') AS `SKG Tamazunchale`,
-    IFNULL(MAX(CASE WHEN s.ClinicID = 2  THEN s.SucursalValor END), 'N/D') AS `SKG Amazonas`,
-    IFNULL(MAX(CASE WHEN s.ClinicID = 3  THEN s.SucursalValor END), 'N/D') AS `SKG Punto Aura`,
-    IFNULL(MAX(CASE WHEN s.ClinicID = 4  THEN s.SucursalValor END), 'N/D') AS `SKG Cumbres`,
-    IFNULL(MAX(CASE WHEN s.ClinicID = 5  THEN s.SucursalValor END), 'N/D') AS `SKG Chihuahua`,
-    IFNULL(MAX(CASE WHEN s.ClinicID = 6  THEN s.SucursalValor END), 'N/D') AS `SKG Juriquilla`,
-    IFNULL(MAX(CASE WHEN s.ClinicID = 12 THEN s.SucursalValor END), 'N/D') AS `SKG Campa`,
-    IFNULL(MAX(CASE WHEN s.ClinicID = 8  THEN s.SucursalValor END), 'N/D') AS `SKG Coapa`,
-    IFNULL(MAX(CASE WHEN s.ClinicID = 7  THEN s.SucursalValor END), 'N/D') AS `SKG Aguilas`,
-    IFNULL(MAX(CASE WHEN s.ClinicID = 13 THEN s.SucursalValor END), 'N/D') AS `PD San Nico #1`,
-    IFNULL(MAX(CASE WHEN s.ClinicID = 9  THEN s.SucursalValor END), 'N/D') AS `PD San Nico #2`,
-    IFNULL(MAX(CASE WHEN s.ClinicID = 10 THEN s.SucursalValor END), 'N/D') AS `PD Miguel Aleman`
+    IFNULL(MAX(CASE WHEN s.ClinicID = 1  THEN s.SucursalValor END), '-') AS `SKG Tamazunchale`,
+    IFNULL(MAX(CASE WHEN s.ClinicID = 2  THEN s.SucursalValor END), '-') AS `SKG Amazonas`,
+    IFNULL(MAX(CASE WHEN s.ClinicID = 3  THEN s.SucursalValor END), '-') AS `SKG Punto Aura`,
+    IFNULL(MAX(CASE WHEN s.ClinicID = 4  THEN s.SucursalValor END), '-') AS `SKG Cumbres`,
+    IFNULL(MAX(CASE WHEN s.ClinicID = 5  THEN s.SucursalValor END), '-') AS `SKG Chihuahua`,
+    IFNULL(MAX(CASE WHEN s.ClinicID = 6  THEN s.SucursalValor END), '-') AS `SKG Juriquilla`,
+    IFNULL(MAX(CASE WHEN s.ClinicID = 12 THEN s.SucursalValor END), '-') AS `SKG Campa`,
+    IFNULL(MAX(CASE WHEN s.ClinicID = 8  THEN s.SucursalValor END), '-') AS `SKG Coapa`,
+    IFNULL(MAX(CASE WHEN s.ClinicID = 7  THEN s.SucursalValor END), '-') AS `SKG Aguilas`,
+    IFNULL(MAX(CASE WHEN s.ClinicID = 13 THEN s.SucursalValor END), '-') AS `PD San Nico #1`,
+    IFNULL(MAX(CASE WHEN s.ClinicID = 9  THEN s.SucursalValor END), '-') AS `PD San Nico #2`,
+    IFNULL(MAX(CASE WHEN s.ClinicID = 10 THEN s.SucursalValor END), '-') AS `PD Miguel Aleman`
 FROM (
     SELECT
         e.EquipmentEquipmentID AS EquipmentID,
@@ -59,7 +59,7 @@ FROM (
             ORDER BY
                 IFNULL(NULLIF(TRIM(e.EquipmentCode), ''), '-'),
                 IFNULL(NULLIF(TRIM(e.EquipmentSN), ''), '-')
-            SEPARATOR '\n'
+            SEPARATOR ' | '
         ) AS SucursalValor
     FROM equipments e
 
