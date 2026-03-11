@@ -276,7 +276,7 @@
     "ReportParentCode": "CATALOGS",
     "ReportDisplayOrder": 8,
     "ReportName": "Movimientos de Inventario",
-    "ReportTitle": "Movimientos de Inventario",
+    "ReportTitle": "Movimientos de Inventario (Valores a costo c/ IVA)",
     "ReportAllowedProfileIDs": [
       1,
       5,
@@ -307,7 +307,7 @@
     "ReportParentCode": "CATALOGS",
     "ReportDisplayOrder": 9,
     "ReportName": "Estatus de Inventario",
-    "ReportTitle": "Estatus de Inventario (Valores a Costo c/ IVA)",
+    "ReportTitle": "Estatus de Inventario (Valores a costo c/ IVA)",
     "ReportAllowedProfileIDs": [
       1,
       5,
