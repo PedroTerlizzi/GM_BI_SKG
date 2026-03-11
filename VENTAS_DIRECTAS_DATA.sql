@@ -61,7 +61,7 @@ SELECT
     CASE
         WHEN (IFNULL(td.TicketUnits, 0) * IFNULL(td.TicketDiscountUnitAmountVAT, 0)) < 0 THEN CONCAT('-$', FORMAT(ABS(IFNULL(td.TicketUnits, 0) * IFNULL(td.TicketDiscountUnitAmountVAT, 0)), 2))
         ELSE CONCAT('$', FORMAT(IFNULL(td.TicketUnits, 0) * IFNULL(td.TicketDiscountUnitAmountVAT, 0), 2))
-    END AS `Descuento`,
+    END AS `Descuento en Ticket`,
     CASE
         WHEN IFNULL(td.TicketTotalAmount, 0) < 0 THEN CONCAT('-$', FORMAT(ABS(IFNULL(td.TicketTotalAmount, 0)), 2))
         ELSE CONCAT('$', FORMAT(IFNULL(td.TicketTotalAmount, 0), 2))
