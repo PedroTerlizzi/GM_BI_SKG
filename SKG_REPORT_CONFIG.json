@@ -167,6 +167,6 @@
     "ReportKPIsSqlFile": null,
     "ReportHasGraph": false,
     "ReportGraphConfig": null,
-    "ReportGraphSqlFile": ""
+    "ReportGraphSqlFile": null
   }
 ]
