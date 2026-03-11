@@ -331,10 +331,11 @@
     "ReportID": 9,
     "ReportParentCode": "CATALOGS",
     "ReportDisplayOrder": 9,
-    "ReportName": "Ventas Directas",
-    "ReportTitle": "Ventas Directas - pre asignación \"indirecta\" de productos/servicios base a prescipciones anteriores/histórico",
+    "ReportName": "Ventas Directas (Individual)",
+    "ReportTitle": "Ventas Directas (Individual) --- no incluye asignación \"indirecta\" de productos/servicios base a prescipciones anteriores/histórico",
     "ReportAllowedProfileIDs": [
-      3
+      3,
+      16
     ],
     "ReportVersion": "V1.0",
     "ReportIsActive": true,
@@ -360,7 +361,8 @@
     "ReportName": "Recetados vs Comprados (Individual)",
     "ReportTitle": "Recetados vs Comprados (Individual)",
     "ReportAllowedProfileIDs": [
-      3
+      3,
+      16
     ],
     "ReportVersion": "V1.0",
     "ReportIsActive": true,
