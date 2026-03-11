@@ -168,5 +168,34 @@
     "ReportHasGraph": false,
     "ReportGraphConfig": null,
     "ReportGraphSqlFile": null
+  },
+  {
+    "ReportID": 7,
+    "ReportParentCode": "CATALOGS",
+    "ReportDisplayOrder": 7,
+    "ReportName": "Catálogo de Insumos",
+    "ReportTitle": "Catálogo de Insumos",
+    "ReportAllowedProfileIDs": [
+      1,
+      3,
+      6,
+      16
+    ],
+    "ReportVersion": "V1.0",
+    "ReportIsActive": true,
+    "ReportNeedClinics": false,
+    "ReportNeedDates": false,
+    "ReportHasFilters": true,
+    "ReportFiltersSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/CATALOGO_INSUMOS_FILTER.sql",
+    "ReportFiltersDefaultValues": null,
+    "ReportDataHorizontalScroll": true,
+    "ReportDataSumPerRow": false,
+    "ReportDataSumPerColumn": false,
+    "ReportDataSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/CATALOGO_INSUMOS_DATA.sql",
+    "ReportHasKPIs": false,
+    "ReportKPIsSqlFile": null,
+    "ReportHasGraph": false,
+    "ReportGraphConfig": null,
+    "ReportGraphSqlFile": null
   }
 ]
