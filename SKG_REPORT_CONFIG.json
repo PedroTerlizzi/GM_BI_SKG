@@ -331,6 +331,32 @@
     "ReportID": 9,
     "ReportParentCode": "CATALOGS",
     "ReportDisplayOrder": 9,
+    "ReportName": "Ventas Directas",
+    "ReportTitle": "Ventas Directas - pre asignación \"indirecta\" de productos/servicios base a prescipciones anteriores/histórico",
+    "ReportAllowedProfileIDs": [
+      3
+    ],
+    "ReportVersion": "V1.0",
+    "ReportIsActive": true,
+    "ReportNeedClinics": false,
+    "ReportNeedDates": false,
+    "ReportHasFilters": true,
+    "ReportFiltersSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/VENTAS_DIRECTAS_FILTER.sql",
+    "ReportFiltersDefaultValues": null,
+    "ReportDataHorizontalScroll": true,
+    "ReportDataSumPerRow": false,
+    "ReportDataSumPerColumn": false,
+    "ReportDataSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/VENTAS_DIRECTAS_DATA.sql",
+    "ReportHasKPIs": true,
+    "ReportKPIsSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/VENTAS_DIRECTAS_KPIS.sql",
+    "ReportHasGraph": true,
+    "ReportGraphConfig": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/VENTAS_DIRECTAS_GCONFIG.json",
+    "ReportGraphSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/VENTAS_DIRECTAS_GRAPH.sql"
+  },
+  {
+    "ReportID": 10,
+    "ReportParentCode": "CATALOGS",
+    "ReportDisplayOrder": 10,
     "ReportName": "Recetados vs Comprados (Individual)",
     "ReportTitle": "Recetados vs Comprados (Individual)",
     "ReportAllowedProfileIDs": [
@@ -354,9 +380,9 @@
     "ReportGraphSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/RECETADO_COMPRADO_INDIVIDUAL_GRAPH.sql"
   },
   {
-    "ReportID": 10,
+    "ReportID": 11,
     "ReportParentCode": "CATALOGS",
-    "ReportDisplayOrder": 10,
+    "ReportDisplayOrder": 11,
     "ReportName": "Movimientos de Inventario",
     "ReportTitle": "Movimientos de Inventario (Valores a costo c/ IVA)",
     "ReportAllowedProfileIDs": [
@@ -385,9 +411,9 @@
     "ReportGraphSqlFile": "https://raw.githubusercontent.com/PedroTerlizzi/GM_BI_SKG/main/MOVIMIENTOS_INVENTARIO_GRAPH.sql"
   },
   {
-    "ReportID": 11,
+    "ReportID": 12,
     "ReportParentCode": "CATALOGS",
-    "ReportDisplayOrder": 11,
+    "ReportDisplayOrder": 12,
     "ReportName": "Estatus de Inventario",
     "ReportTitle": "Estatus de Inventario (Valores a costo c/ IVA)",
     "ReportAllowedProfileIDs": [
