@@ -1,7 +1,7 @@
 /* ============================================================================
     GROWMETRICA FLOWWW BI - SQL STANDARD TEMPLATE
 
-    REPORT_ID: 14
+    REPORT_ID: 10
     REPORT_TITLE: Habilidades por Doctor
     - Enfoque: Agrupación visual por Doctor y Servicio.
     - Base: x_config_users_products
@@ -38,10 +38,10 @@ CROSS JOIN (
             NULL AS EngineFilter1,
             NULL AS EngineFilter2,
             NULL AS EngineFilter3,
-
+            
             255                                   AS DebugUserID,
             '1,2,3,4,5,6,12,8,7,13,9,10'          AS DebugClinicIDs,
-            DATE_SUB(CURDATE(), INTERVAL 30 DAY)  AS DebugStartDate,
+            DATE_SUB(CURDATE(), INTERVAL 30 DAY)  AS DebugStartDate, 
             CURDATE()                             AS DebugEndDate,
             1                                     AS DebugFilter1,
             1                                     AS DebugFilter2,
@@ -50,28 +50,27 @@ CROSS JOIN (
 ) param
 
 /* [SAFE TO MODIFY] BLOCK 3 - BUSINESS JOINS */
-INNER JOIN x_config_products_det pd
+INNER JOIN x_config_products_det pd 
     ON pd.ProductID = up.UserProductProductID
 
 LEFT JOIN x_config_products_fam pf
     ON pf.FamilyID = pd.ProductFamilyID
 
-LEFT JOIN x_config_clinics xc
+LEFT JOIN x_config_clinics xc 
     ON xc.ClinicID = up.UserProductClinicID
 
-LEFT JOIN __x_config_users_view u
+LEFT JOIN __x_config_users_view u 
     ON u.UserID = up.UserProductUserID
 
 /* [SAFE TO MODIFY] BLOCK 4 - BUSINESS FILTERS */
 WHERE FIND_IN_SET(up.UserProductClinicID, param.EffectiveClinicIDs)
-  AND u.UserDisabled = 0
-  AND up.UserProductProductID <> 33968
+  AND u.UserDisabled = 0 
+  AND up.UserProductProductID <> 33968 
   AND up.UserProductUserID NOT IN (273, 299)
 
-/* ORDER apply here */
-ORDER BY
+/* ORDENADO PRIORIZANDO AL DOCTOR */
+ORDER BY 
     `Doctor` ASC,
     `Familia` ASC,
     `Descripcion` ASC,
     `Sucursal` ASC;
-
