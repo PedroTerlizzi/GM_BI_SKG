@@ -1,7 +1,7 @@
 /* ============================================================================
     GROWMETRICA FLOWWW BI - SQL STANDARD TEMPLATE
 
-    REPORT_ID: 13
+    REPORT_ID: 9
     REPORT_TITLE: Habilidades por Sucursal
     - Enfoque: Agrupación visual por Sucursal y Servicio. Expande Doctores.
     - Base: x_config_users_products
@@ -9,20 +9,11 @@
 
 /* [SAFE TO MODIFY] BLOCK 1 - OUTPUT SELECT */
 SELECT
-    -- El bloque protagonista: La Sucursal
-    up.UserProductClinicID AS `ID_Sucursal`,
     IFNULL(xc.ClinicCommercialName, 'Sucursal Desconocida') AS `Sucursal`,
-
-    -- El Servicio
-    up.UserProductProductID AS `ID_Habilidad`,
     IFNULL(pf.FamilyName, 'Sin Familia') AS `Familia`,
     pd.ProductDesc AS `Descripcion`,
-
-    -- El detalle a expandir (Doctores)
-    up.UserProductUserID AS `ID_Doctor`,
     IFNULL(u.UserName, 'Doctor Desconocido') AS `Doctor`,
-
-    '✔' AS `Habilitado`
+    'Si' AS `Capacitado`
 
 FROM x_config_users_products up
 
@@ -47,10 +38,10 @@ CROSS JOIN (
             NULL AS EngineFilter1,
             NULL AS EngineFilter2,
             NULL AS EngineFilter3,
-
+            
             255                                   AS DebugUserID,
             '1,2,3,4,5,6,12,8,7,13,9,10'          AS DebugClinicIDs,
-            DATE_SUB(CURDATE(), INTERVAL 30 DAY)  AS DebugStartDate,
+            DATE_SUB(CURDATE(), INTERVAL 30 DAY)  AS DebugStartDate, 
             CURDATE()                             AS DebugEndDate,
             1                                     AS DebugFilter1,
             1                                     AS DebugFilter2,
@@ -59,25 +50,27 @@ CROSS JOIN (
 ) param
 
 /* [SAFE TO MODIFY] BLOCK 3 - BUSINESS JOINS */
-INNER JOIN x_config_products_det pd
+INNER JOIN x_config_products_det pd 
     ON pd.ProductID = up.UserProductProductID
 
 LEFT JOIN x_config_products_fam pf
     ON pf.FamilyID = pd.ProductFamilyID
 
-LEFT JOIN x_config_clinics xc
+LEFT JOIN x_config_clinics xc 
     ON xc.ClinicID = up.UserProductClinicID
 
-LEFT JOIN __x_config_users_view u
+LEFT JOIN __x_config_users_view u 
     ON u.UserID = up.UserProductUserID
 
 /* [SAFE TO MODIFY] BLOCK 4 - BUSINESS FILTERS */
 WHERE FIND_IN_SET(up.UserProductClinicID, param.EffectiveClinicIDs)
+  AND u.UserDisabled = 0 -- FILTRO DE PERSONAL ACTIVO
+  AND up.UserProductProductID <> 33968 -- EXCLUYE HABILIDAD ESPECÍFICA
+  AND up.UserProductUserID NOT IN (273, 299) -- EXCLUYE DOCTORES/USUARIOS ESPECÍFICOS
 
-/* ORDER apply here */
-ORDER BY
+/* ORDENADO PARA LEERSE POR SUCURSAL */
+ORDER BY 
     `Sucursal` ASC,
     `Familia` ASC,
     `Descripcion` ASC,
     `Doctor` ASC;
-
