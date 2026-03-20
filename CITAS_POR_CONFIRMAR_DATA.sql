@@ -16,13 +16,13 @@ SELECT
     dg.DiaryGStart AS `Hora`,
     CONCAT(IFNULL(c.ClientName, ''), ' ', IFNULL(c.ClientSurname1, '')) AS `Paciente`,
     IFNULL(c.ClientPhone1, 'Sin teléfono') AS `Telefono`,
-    IFNULL(u.UserName, 'Sin asignar') AS `Doctor_Asignado`,
+    IFNULL(u.UserName, 'Sin asignar') AS `Doctor Asignado`,
 
     -- Agrupamos los servicios de la cita iterando sobre diary_det
     IFNULL(GROUP_CONCAT(pd.ProductDesc SEPARATOR ', '), 'Servicio no especificado') AS `Servicios`,
 
     -- Validación de la confirmación del Doctor
-    IF(dg.DiaryGLaserDoctor = -1, 'Sí', 'No') AS `Confirmado_Doctor`
+    IF(dg.DiaryGLaserDoctor = -1, 'Sí', 'No') AS `Confirmado Por Doctor`
 
 FROM diary_gen dg
 
