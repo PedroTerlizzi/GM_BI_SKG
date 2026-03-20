@@ -13,7 +13,7 @@
 SELECT
     IFNULL(xc.ClinicCommercialName, 'Sucursal Desconocida') AS `Sucursal`,
     dg.DiaryGDate AS `Fecha`,
-    dg.DiaryGStart AS `Hora`,
+    TIME_FORMAT(dg.DiaryGStart, '%H:%i') AS `Hora`,
     CONCAT(IFNULL(c.ClientName, ''), ' ', IFNULL(c.ClientSurname1, '')) AS `Paciente`,
     IFNULL(c.ClientPhone1, 'Sin teléfono') AS `Telefono`,
     IFNULL(u.UserName, 'Sin asignar') AS `Doctor Asignado`,
