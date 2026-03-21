@@ -2,19 +2,31 @@
     GROWMETRICA FLOWWW BI - SQL STANDARD TEMPLATE
 
     REPORT_ID: 14
-    REPORT_TITLE: Habilidades por Doctor
-    - Enfoque: Agrupación visual por Doctor y Servicio.
+    REPORT_TITLE: Habilidades por Doctor (Matriz Pivotada)
+    - Enfoque: Agrupación visual por Doctor y Servicio (Hardcoded Pivot).
     - Base: x_config_users_products
-    - IntegraciÃ³n: Escucha Filter1 (FamilyParentID CSV) y Filter2 (UserID)
+    - Integración: Escucha Filter1 (FamilyParentID CSV) y Filter2 (UserID)
 ============================================================================ */
 
 /* [SAFE TO MODIFY] BLOCK 1 - OUTPUT SELECT */
 SELECT
     IFNULL(u.UserName, 'Doctor Desconocido') AS `Doctor`,
-    IFNULL(pf.FamilyName, 'Sin Familia') AS `Familia`,
-    IFNULL(pd.ProductDesc, '-') AS `Servicio`,
-    IFNULL(xc.ClinicCommercialName, 'Sucursal Desconocida') AS `Sucursal`,
-    'Si' AS `Capacitado`
+    IFNULL(pf.FamilyName, 'Sin Familia')     AS `Familia`,
+    IFNULL(pd.ProductDesc, '-')              AS `Servicio`,
+    
+    -- Hardcoded Pivot para las sucursales (Basado en el ID de tu sistema)
+    MAX(CASE WHEN up.UserProductClinicID = 1  THEN 'Sí' ELSE 'No' END) AS `SKG Tamazunchale`,
+    MAX(CASE WHEN up.UserProductClinicID = 2  THEN 'Sí' ELSE 'No' END) AS `SKG Amazonas`,
+    MAX(CASE WHEN up.UserProductClinicID = 3  THEN 'Sí' ELSE 'No' END) AS `SKG Punto Aura`,
+    MAX(CASE WHEN up.UserProductClinicID = 4  THEN 'Sí' ELSE 'No' END) AS `SKG Cumbres`,
+    MAX(CASE WHEN up.UserProductClinicID = 5  THEN 'Sí' ELSE 'No' END) AS `SKG Chihuahua`,
+    MAX(CASE WHEN up.UserProductClinicID = 6  THEN 'Sí' ELSE 'No' END) AS `SKG Juriquilla`,
+    MAX(CASE WHEN up.UserProductClinicID = 12 THEN 'Sí' ELSE 'No' END) AS `SKG Campa`,
+    MAX(CASE WHEN up.UserProductClinicID = 8  THEN 'Sí' ELSE 'No' END) AS `SKG Coapa`,
+    MAX(CASE WHEN up.UserProductClinicID = 7  THEN 'Sí' ELSE 'No' END) AS `SKG Aguilas`,
+    MAX(CASE WHEN up.UserProductClinicID = 13 THEN 'Sí' ELSE 'No' END) AS `PD San Nico #1`,
+    MAX(CASE WHEN up.UserProductClinicID = 9  THEN 'Sí' ELSE 'No' END) AS `PD San Nico #2`,
+    MAX(CASE WHEN up.UserProductClinicID = 10 THEN 'Sí' ELSE 'No' END) AS `PD Miguel Aleman`
 
 FROM x_config_users_products up
 
@@ -57,9 +69,6 @@ INNER JOIN x_config_products_det pd
 LEFT JOIN x_config_products_fam pf
     ON pf.FamilyID = pd.ProductFamilyID
 
-LEFT JOIN x_config_clinics xc 
-    ON xc.ClinicID = up.UserProductClinicID
-
 LEFT JOIN __x_config_users_view u 
     ON u.UserID = up.UserProductUserID
 
@@ -79,9 +88,14 @@ WHERE FIND_IN_SET(up.UserProductClinicID, param.EffectiveClinicIDs)
       OR u.UserID = param.EffectiveFilter2
   )
 
+/* AGRUPAMOS POR DOCTOR Y SERVICIO PARA COLAPSAR LA MATRIZ */
+GROUP BY
+    u.UserName,
+    pf.FamilyName,
+    pd.ProductDesc
+
 /* ORDENADO PRIORIZANDO AL DOCTOR */
 ORDER BY 
     `Doctor` ASC,
     `Familia` ASC,
-    `Servicio` ASC,
-    `Sucursal` ASC;
+    `Servicio` ASC;
