@@ -67,6 +67,7 @@ SELECT
         ELSE CONCAT('$', FORMAT(IFNULL(td.TicketTotalAmount, 0), 2))
     END AS `Precio Final en Ticket`,
     CASE
+        WHEN IFNULL(prod_line.ProductType, 0) NOT IN (1, 4) THEN '-'
         WHEN IFNULL(prod_line.ProductComission, 0) = 0 THEN '-'
         ELSE CONCAT(
             TRIM(
@@ -80,6 +81,7 @@ SELECT
         )
     END AS `% Comisión`,
     CASE
+        WHEN IFNULL(prod_line.ProductType, 0) NOT IN (1, 4) THEN '-'
         WHEN IFNULL(prod_line.ProductComission, 0) = 0 THEN '-'
         WHEN (IFNULL(td.TicketTotalAmount, 0) * IFNULL(prod_line.ProductComission, 0) / 100) < 0 THEN CONCAT('-$', FORMAT(ABS(IFNULL(td.TicketTotalAmount, 0) * IFNULL(prod_line.ProductComission, 0) / 100), 2))
         ELSE CONCAT('$', FORMAT(IFNULL(td.TicketTotalAmount, 0) * IFNULL(prod_line.ProductComission, 0) / 100, 2))

@@ -33,10 +33,8 @@ SELECT
             WHEN (
                 CASE k.KPIID
                     WHEN 1 THEN IFNULL(a.TotalVentas, 0)
-                    WHEN 2 THEN IFNULL(a.VentasServicioSesion, 0)
-                    WHEN 3 THEN IFNULL(a.VentasConversionReceta, 0)
-                    WHEN 4 THEN IFNULL(a.VentasOrigenNoRegistrada, 0)
-                    WHEN 5 THEN IFNULL(a.ComisionDirectaServicios, 0)
+                    WHEN 2 THEN IFNULL(a.TotalServicios, 0)
+                    WHEN 3 THEN IFNULL(a.ComisionesServicios, 0)
                     ELSE 0
                 END
             ) < 0 THEN '-$'
@@ -46,10 +44,8 @@ SELECT
             ABS(
                 CASE k.KPIID
                     WHEN 1 THEN IFNULL(a.TotalVentas, 0)
-                    WHEN 2 THEN IFNULL(a.VentasServicioSesion, 0)
-                    WHEN 3 THEN IFNULL(a.VentasConversionReceta, 0)
-                    WHEN 4 THEN IFNULL(a.VentasOrigenNoRegistrada, 0)
-                    WHEN 5 THEN IFNULL(a.ComisionDirectaServicios, 0)
+                    WHEN 2 THEN IFNULL(a.TotalServicios, 0)
+                    WHEN 3 THEN IFNULL(a.ComisionesServicios, 0)
                     ELSE 0
                 END
             ),
@@ -60,10 +56,8 @@ SELECT
 FROM (
     SELECT
         IFNULL(SUM(td.TicketTotalAmount), 0) AS TotalVentas,
-        IFNULL(SUM(CASE WHEN IFNULL(td.TicketLaserGID, 0) <> 0 THEN td.TicketTotalAmount ELSE 0 END), 0) AS VentasServicioSesion,
-        IFNULL(SUM(CASE WHEN IFNULL(td.TicketLaserGID, 0) = 0 AND (IFNULL(tg.TicketGBudgetID, 0) <> 0 OR IFNULL(bmatch.MatchedBudgetID, 0) <> 0) THEN td.TicketTotalAmount ELSE 0 END), 0) AS VentasConversionReceta,
-        IFNULL(SUM(CASE WHEN IFNULL(td.TicketLaserGID, 0) = 0 AND IFNULL(tg.TicketGBudgetID, 0) = 0 AND IFNULL(bmatch.MatchedBudgetID, 0) = 0 THEN td.TicketTotalAmount ELSE 0 END), 0) AS VentasOrigenNoRegistrada,
-        IFNULL(SUM(CASE WHEN IFNULL(prod_line.ProductComission, 0) = 0 THEN 0 ELSE td.TicketTotalAmount * prod_line.ProductComission / 100 END), 0) AS ComisionDirectaServicios
+        IFNULL(SUM(CASE WHEN IFNULL(prod_line.ProductType, 0) IN (1, 4) THEN td.TicketTotalAmount ELSE 0 END), 0) AS TotalServicios,
+        IFNULL(SUM(CASE WHEN IFNULL(prod_line.ProductType, 0) IN (1, 4) THEN td.TicketTotalAmount * IFNULL(prod_line.ProductComission, 0) / 100 ELSE 0 END), 0) AS ComisionesServicios
     FROM tickets_det td
 
 /* [DO NOT MODIFY] BLOCK 2 - PARAM RESOLUTION (t + p) */
@@ -177,9 +171,7 @@ WHERE IFNULL(td.TicketUnits, 0) <> 0
 ) a
 CROSS JOIN (
     SELECT 1 AS KPIID, 'Total Ventas' AS KPIName, TRUE AS KPIScheme
-    UNION ALL SELECT 2, 'Servicios en sesion', TRUE
-    UNION ALL SELECT 3, 'Conversion receta (inmediata)', TRUE
-    UNION ALL SELECT 4, 'Origen no registrada', TRUE
-    UNION ALL SELECT 5, 'Comisión directa servicios', TRUE
+    UNION ALL SELECT 2, 'Total Servicios', TRUE
+    UNION ALL SELECT 3, 'Comisiones Servicios', TRUE
 ) k
 ORDER BY k.KPIID;
