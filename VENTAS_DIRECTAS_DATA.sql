@@ -67,6 +67,24 @@ SELECT
         ELSE CONCAT('$', FORMAT(IFNULL(td.TicketTotalAmount, 0), 2))
     END AS `Precio Final en Ticket`,
     CASE
+        WHEN IFNULL(prod_line.ProductComission, 0) = 0 THEN '-'
+        ELSE CONCAT(
+            TRIM(
+                TRAILING '.'
+                FROM TRIM(
+                    TRAILING '0'
+                    FROM FORMAT(IFNULL(prod_line.ProductComission, 0), 2)
+                )
+            ),
+            '%'
+        )
+    END AS `% Comisión`,
+    CASE
+        WHEN IFNULL(prod_line.ProductComission, 0) = 0 THEN '-'
+        WHEN (IFNULL(td.TicketTotalAmount, 0) * IFNULL(prod_line.ProductComission, 0) / 100) < 0 THEN CONCAT('-$', FORMAT(ABS(IFNULL(td.TicketTotalAmount, 0) * IFNULL(prod_line.ProductComission, 0) / 100), 2))
+        ELSE CONCAT('$', FORMAT(IFNULL(td.TicketTotalAmount, 0) * IFNULL(prod_line.ProductComission, 0) / 100, 2))
+    END AS `Comisión`,
+    CASE
         WHEN IFNULL(td.TicketLaserGID, 0) <> 0 THEN 'Servicios en sesion'
         WHEN IFNULL(tg.TicketGBudgetID, 0) <> 0 OR IFNULL(bmatch.MatchedBudgetID, 0) <> 0 THEN 'Conversion receta (inmediata)'
         ELSE 'Origen no registrada'
