@@ -1,1139 +1,275 @@
 {
-  "_generado": "2026-07-15 22:15:09",
+  "_generado": "2026-07-15 22:24:35",
   "_usuarios": 221,
-  "_cabinas": 162,
+  "_cabinas": 99,
   "usuarios": {
-    "230": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "231": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "232": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "233": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "234": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "235": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "236": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "237": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "238": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "239": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "240": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "241": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "242": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "243": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "244": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "245": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "246": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "247": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "248": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "249": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "250": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "251": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "252": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "253": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "254": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "255": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "256": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "257": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "258": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "259": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "260": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "261": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "262": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "263": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "264": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "265": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "266": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "273": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "275": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "277": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "279": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "282": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "283": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "293": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "294": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "295": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "296": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "297": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "299": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "300": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "301": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "302": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "303": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "304": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "305": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "306": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "307": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "308": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "309": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "310": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "311": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "312": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "313": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "314": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "315": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "316": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "317": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "318": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "319": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "320": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "321": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "322": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "323": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "324": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "325": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "326": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "327": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "328": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "329": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "330": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "331": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "332": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "333": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "334": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "335": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "336": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "337": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "338": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "339": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "340": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "341": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "342": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "344": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "345": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "346": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "347": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "348": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "349": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "350": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "351": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "352": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "353": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "354": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "355": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "356": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "357": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "358": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "359": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "360": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "361": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "362": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "363": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "364": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "365": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "366": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "367": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "368": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "369": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "370": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "371": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "372": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "373": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "374": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "375": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "376": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "377": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "378": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "382": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "383": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "384": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "385": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "386": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "387": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "388": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "389": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "390": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "391": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "392": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "393": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "394": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "395": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "396": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "397": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "398": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "399": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "400": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "401": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "402": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "403": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "404": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "405": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "406": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "407": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "408": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "409": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "410": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "411": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "412": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "413": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "414": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "415": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "416": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "417": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "418": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "419": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "420": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "421": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "422": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "423": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "424": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "425": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "426": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "427": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "428": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "429": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "430": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "431": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "434": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "436": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "437": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "438": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "439": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "440": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "441": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "442": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "444": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "445": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "446": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "447": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "448": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "449": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "450": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "451": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "452": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "453": {
-      "permiso": "Staff",
-      "marca": "Alpha"
-    },
-    "454": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "456": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "457": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "458": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "459": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "460": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "461": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "462": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "463": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "464": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "465": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "466": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "467": {
-      "permiso": "Supervisor",
-      "marca": "Beta"
-    },
-    "468": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "469": {
-      "permiso": "Supervisor",
-      "marca": "Alpha"
-    },
-    "470": {
-      "permiso": "Staff",
-      "marca": "Beta"
-    },
-    "471": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "472": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "473": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "474": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "475": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "476": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "478": {
-      "permiso": "Supervisor",
-      "marca": "Gamma"
-    },
-    "479": {
-      "permiso": "Admin",
-      "marca": ""
-    },
-    "480": {
-      "permiso": "Staff",
-      "marca": "Gamma"
-    },
-    "483": {
-      "permiso": "Admin",
-      "marca": ""
-    }
+    "230": ["Staff", "Beta"],
+    "231": ["Admin", ""],
+    "232": ["Staff", "Alpha"],
+    "233": ["Supervisor", "Beta"],
+    "234": ["Supervisor", "Alpha"],
+    "235": ["Supervisor", "Beta"],
+    "236": ["Staff", "Gamma"],
+    "237": ["Supervisor", "Alpha"],
+    "238": ["Admin", ""],
+    "239": ["Admin", ""],
+    "240": ["Staff", "Gamma"],
+    "241": ["Admin", ""],
+    "242": ["Staff", "Beta"],
+    "243": ["Staff", "Alpha"],
+    "244": ["Staff", "Gamma"],
+    "245": ["Staff", "Alpha"],
+    "246": ["Staff", "Alpha"],
+    "247": ["Supervisor", "Gamma"],
+    "248": ["Admin", ""],
+    "249": ["Supervisor", "Gamma"],
+    "250": ["Supervisor", "Alpha"],
+    "251": ["Admin", ""],
+    "252": ["Supervisor", "Beta"],
+    "253": ["Staff", "Beta"],
+    "254": ["Staff", "Alpha"],
+    "255": ["Supervisor", "Beta"],
+    "256": ["Supervisor", "Gamma"],
+    "257": ["Supervisor", "Alpha"],
+    "258": ["Staff", "Gamma"],
+    "259": ["Supervisor", "Alpha"],
+    "260": ["Supervisor", "Alpha"],
+    "261": ["Admin", ""],
+    "262": ["Supervisor", "Beta"],
+    "263": ["Supervisor", "Alpha"],
+    "264": ["Staff", "Gamma"],
+    "265": ["Supervisor", "Beta"],
+    "266": ["Staff", "Gamma"],
+    "273": ["Supervisor", "Gamma"],
+    "275": ["Admin", ""],
+    "277": ["Supervisor", "Gamma"],
+    "279": ["Staff", "Alpha"],
+    "282": ["Staff", "Beta"],
+    "283": ["Staff", "Beta"],
+    "293": ["Staff", "Gamma"],
+    "294": ["Admin", ""],
+    "295": ["Admin", ""],
+    "296": ["Admin", ""],
+    "297": ["Staff", "Gamma"],
+    "299": ["Supervisor", "Beta"],
+    "300": ["Supervisor", "Gamma"],
+    "301": ["Admin", ""],
+    "302": ["Supervisor", "Alpha"],
+    "303": ["Admin", ""],
+    "304": ["Admin", ""],
+    "305": ["Supervisor", "Beta"],
+    "306": ["Staff", "Beta"],
+    "307": ["Admin", ""],
+    "308": ["Supervisor", "Gamma"],
+    "309": ["Supervisor", "Gamma"],
+    "310": ["Supervisor", "Alpha"],
+    "311": ["Supervisor", "Alpha"],
+    "312": ["Admin", ""],
+    "313": ["Staff", "Alpha"],
+    "314": ["Supervisor", "Beta"],
+    "315": ["Admin", ""],
+    "316": ["Admin", ""],
+    "317": ["Staff", "Alpha"],
+    "318": ["Supervisor", "Alpha"],
+    "319": ["Admin", ""],
+    "320": ["Staff", "Alpha"],
+    "321": ["Staff", "Gamma"],
+    "322": ["Supervisor", "Beta"],
+    "323": ["Admin", ""],
+    "324": ["Admin", ""],
+    "325": ["Admin", ""],
+    "326": ["Supervisor", "Gamma"],
+    "327": ["Admin", ""],
+    "328": ["Supervisor", "Beta"],
+    "329": ["Supervisor", "Gamma"],
+    "330": ["Staff", "Beta"],
+    "331": ["Admin", ""],
+    "332": ["Admin", ""],
+    "333": ["Supervisor", "Beta"],
+    "334": ["Staff", "Beta"],
+    "335": ["Supervisor", "Alpha"],
+    "336": ["Supervisor", "Gamma"],
+    "337": ["Staff", "Beta"],
+    "338": ["Supervisor", "Alpha"],
+    "339": ["Staff", "Alpha"],
+    "340": ["Supervisor", "Alpha"],
+    "341": ["Staff", "Alpha"],
+    "342": ["Admin", ""],
+    "344": ["Supervisor", "Gamma"],
+    "345": ["Staff", "Gamma"],
+    "346": ["Supervisor", "Alpha"],
+    "347": ["Staff", "Beta"],
+    "348": ["Admin", ""],
+    "349": ["Staff", "Alpha"],
+    "350": ["Staff", "Beta"],
+    "351": ["Staff", "Gamma"],
+    "352": ["Admin", ""],
+    "353": ["Admin", ""],
+    "354": ["Admin", ""],
+    "355": ["Supervisor", "Beta"],
+    "356": ["Supervisor", "Gamma"],
+    "357": ["Supervisor", "Gamma"],
+    "358": ["Staff", "Alpha"],
+    "359": ["Staff", "Beta"],
+    "360": ["Supervisor", "Alpha"],
+    "361": ["Staff", "Beta"],
+    "362": ["Staff", "Beta"],
+    "363": ["Staff", "Alpha"],
+    "364": ["Staff", "Beta"],
+    "365": ["Supervisor", "Gamma"],
+    "366": ["Admin", ""],
+    "367": ["Staff", "Beta"],
+    "368": ["Admin", ""],
+    "369": ["Staff", "Alpha"],
+    "370": ["Staff", "Beta"],
+    "371": ["Admin", ""],
+    "372": ["Admin", ""],
+    "373": ["Supervisor", "Alpha"],
+    "374": ["Admin", ""],
+    "375": ["Staff", "Gamma"],
+    "376": ["Admin", ""],
+    "377": ["Admin", ""],
+    "378": ["Supervisor", "Gamma"],
+    "382": ["Supervisor", "Beta"],
+    "383": ["Staff", "Beta"],
+    "384": ["Supervisor", "Alpha"],
+    "385": ["Admin", ""],
+    "386": ["Staff", "Beta"],
+    "387": ["Admin", ""],
+    "388": ["Admin", ""],
+    "389": ["Supervisor", "Beta"],
+    "390": ["Staff", "Beta"],
+    "391": ["Staff", "Alpha"],
+    "392": ["Supervisor", "Alpha"],
+    "393": ["Supervisor", "Alpha"],
+    "394": ["Staff", "Beta"],
+    "395": ["Staff", "Beta"],
+    "396": ["Staff", "Alpha"],
+    "397": ["Staff", "Gamma"],
+    "398": ["Admin", ""],
+    "399": ["Admin", ""],
+    "400": ["Staff", "Alpha"],
+    "401": ["Admin", ""],
+    "402": ["Supervisor", "Gamma"],
+    "403": ["Admin", ""],
+    "404": ["Admin", ""],
+    "405": ["Supervisor", "Gamma"],
+    "406": ["Supervisor", "Gamma"],
+    "407": ["Staff", "Beta"],
+    "408": ["Supervisor", "Beta"],
+    "409": ["Staff", "Beta"],
+    "410": ["Staff", "Beta"],
+    "411": ["Staff", "Gamma"],
+    "412": ["Staff", "Alpha"],
+    "413": ["Admin", ""],
+    "414": ["Admin", ""],
+    "415": ["Supervisor", "Alpha"],
+    "416": ["Admin", ""],
+    "417": ["Supervisor", "Beta"],
+    "418": ["Admin", ""],
+    "419": ["Admin", ""],
+    "420": ["Staff", "Gamma"],
+    "421": ["Staff", "Gamma"],
+    "422": ["Supervisor", "Beta"],
+    "423": ["Admin", ""],
+    "424": ["Admin", ""],
+    "425": ["Supervisor", "Alpha"],
+    "426": ["Supervisor", "Beta"],
+    "427": ["Supervisor", "Gamma"],
+    "428": ["Admin", ""],
+    "429": ["Supervisor", "Alpha"],
+    "430": ["Staff", "Gamma"],
+    "431": ["Admin", ""],
+    "434": ["Staff", "Beta"],
+    "436": ["Staff", "Gamma"],
+    "437": ["Supervisor", "Beta"],
+    "438": ["Supervisor", "Gamma"],
+    "439": ["Admin", ""],
+    "440": ["Staff", "Gamma"],
+    "441": ["Supervisor", "Beta"],
+    "442": ["Supervisor", "Beta"],
+    "444": ["Supervisor", "Alpha"],
+    "445": ["Supervisor", "Alpha"],
+    "446": ["Admin", ""],
+    "447": ["Supervisor", "Alpha"],
+    "448": ["Staff", "Alpha"],
+    "449": ["Staff", "Beta"],
+    "450": ["Staff", "Gamma"],
+    "451": ["Supervisor", "Alpha"],
+    "452": ["Supervisor", "Gamma"],
+    "453": ["Staff", "Alpha"],
+    "454": ["Supervisor", "Gamma"],
+    "456": ["Supervisor", "Beta"],
+    "457": ["Staff", "Gamma"],
+    "458": ["Admin", ""],
+    "459": ["Supervisor", "Gamma"],
+    "460": ["Staff", "Gamma"],
+    "461": ["Staff", "Beta"],
+    "462": ["Staff", "Beta"],
+    "463": ["Admin", ""],
+    "464": ["Supervisor", "Beta"],
+    "465": ["Admin", ""],
+    "466": ["Staff", "Beta"],
+    "467": ["Supervisor", "Beta"],
+    "468": ["Staff", "Beta"],
+    "469": ["Supervisor", "Alpha"],
+    "470": ["Staff", "Beta"],
+    "471": ["Admin", ""],
+    "472": ["Admin", ""],
+    "473": ["Admin", ""],
+    "474": ["Staff", "Gamma"],
+    "475": ["Admin", ""],
+    "476": ["Supervisor", "Gamma"],
+    "478": ["Supervisor", "Gamma"],
+    "479": ["Admin", ""],
+    "480": ["Staff", "Gamma"],
+    "483": ["Admin", ""]
   },
   "marcas": {
     "Alpha": {
-      "1": [
-        "3",
-        "4",
-        "5",
-        "6",
-        "9"
-      ],
-      "2": [
-        "1",
-        "2",
-        "5",
-        "6"
-      ],
-      "3": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6"
-      ],
-      "4": [
-        "1",
-        "2",
-        "5",
-        "6"
-      ],
-      "5": [
-        "2",
-        "3",
-        "5"
-      ],
-      "6": [
-        "3"
-      ],
-      "7": [
-        "2"
-      ],
-      "8": [
-        "1",
-        "2"
-      ],
-      "9": [
-        "1",
-        "2",
-        "3",
-        "8",
-        "9",
-        "10",
-        "11",
-        "14",
-        "15",
-        "16"
-      ],
-      "10": [
-        "4",
-        "10",
-        "13",
-        "16"
-      ],
-      "11": [
-        "2",
-        "5",
-        "7"
-      ],
-      "12": [
-        "2",
-        "3",
-        "6",
-        "7"
-      ],
-      "13": [
-        "2",
-        "3"
-      ]
+      "1": ["3", "4", "5", "6", "9"],
+      "2": ["1", "2", "5", "6"],
+      "3": ["1", "2", "3", "4", "5", "6"],
+      "4": ["1", "2", "5", "6"],
+      "5": ["2", "3", "5"],
+      "6": ["3"],
+      "7": ["2"],
+      "8": ["1", "2"],
+      "9": ["1", "2", "3", "8", "9", "10", "11", "14", "15", "16"],
+      "10": ["4", "10", "13", "16"],
+      "11": ["2", "5", "7"],
+      "12": ["2", "3", "6", "7"],
+      "13": ["2", "3"]
     },
     "Beta": {
-      "1": [
-        "1",
-        "2",
-        "6",
-        "7",
-        "8"
-      ],
-      "2": [
-        "1",
-        "2",
-        "4",
-        "5",
-        "7",
-        "8"
-      ],
-      "3": [
-        "1",
-        "3",
-        "4"
-      ],
-      "4": [
-        "2",
-        "3",
-        "5",
-        "6"
-      ],
-      "5": [
-        "1",
-        "2",
-        "3",
-        "5",
-        "7"
-      ],
-      "6": [
-        "1",
-        "2",
-        "4",
-        "5",
-        "6"
-      ],
-      "7": [
-        "1",
-        "2",
-        "3"
-      ],
-      "8": [
-        "3",
-        "4",
-        "5"
-      ],
-      "9": [
-        "2",
-        "4",
-        "6",
-        "7",
-        "9",
-        "10",
-        "12",
-        "13",
-        "15"
-      ],
-      "10": [
-        "2",
-        "3",
-        "4",
-        "5",
-        "12",
-        "14",
-        "15",
-        "16"
-      ],
-      "11": [
-        "3",
-        "5",
-        "6"
-      ],
-      "12": [
-        "2",
-        "3",
-        "7"
-      ],
-      "13": [
-        "2",
-        "4",
-        "5"
-      ]
+      "1": ["1", "2", "6", "7", "8"],
+      "2": ["1", "2", "4", "5", "7", "8"],
+      "3": ["1", "3", "4"],
+      "4": ["2", "3", "5", "6"],
+      "5": ["1", "2", "3", "5", "7"],
+      "6": ["1", "2", "4", "5", "6"],
+      "7": ["1", "2", "3"],
+      "8": ["3", "4", "5"],
+      "9": ["2", "4", "6", "7", "9", "10", "12", "13", "15"],
+      "10": ["2", "3", "4", "5", "12", "14", "15", "16"],
+      "11": ["3", "5", "6"],
+      "12": ["2", "3", "7"],
+      "13": ["2", "4", "5"]
     },
     "Gamma": {
-      "1": [
-        "2",
-        "7",
-        "8",
-        "9"
-      ],
-      "2": [
-        "1",
-        "3",
-        "5",
-        "8"
-      ],
-      "3": [
-        "2",
-        "3",
-        "6"
-      ],
-      "4": [
-        "1",
-        "4"
-      ],
-      "5": [
-        "1",
-        "2",
-        "4",
-        "5",
-        "6",
-        "8"
-      ],
-      "6": [
-        "4",
-        "6"
-      ],
-      "7": [
-        "3"
-      ],
-      "8": [
-        "1",
-        "6"
-      ],
-      "9": [
-        "2",
-        "3",
-        "5",
-        "7",
-        "8",
-        "10",
-        "11",
-        "13",
-        "14",
-        "15"
-      ],
-      "10": [
-        "1",
-        "10",
-        "11",
-        "12",
-        "13",
-        "15",
-        "16"
-      ],
-      "11": [
-        "1",
-        "3",
-        "4"
-      ],
-      "12": [
-        "1",
-        "3",
-        "4",
-        "5",
-        "7"
-      ],
-      "13": [
-        "1",
-        "2",
-        "3",
-        "5"
-      ]
+      "1": ["2", "7", "8", "9"],
+      "2": ["1", "3", "5", "8"],
+      "3": ["2", "3", "6"],
+      "4": ["1", "4"],
+      "5": ["1", "2", "4", "5", "6", "8"],
+      "6": ["4", "6"],
+      "7": ["3"],
+      "8": ["1", "6"],
+      "9": ["2", "3", "5", "7", "8", "10", "11", "13", "14", "15"],
+      "10": ["1", "10", "11", "12", "13", "15", "16"],
+      "11": ["1", "3", "4"],
+      "12": ["1", "3", "4", "5", "7"],
+      "13": ["1", "2", "3", "5"]
     }
   }
 }
