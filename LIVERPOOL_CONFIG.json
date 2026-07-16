@@ -1,5 +1,5 @@
 {
-  "_generado": "2026-07-15 22:28:27",
+  "_generado": "2026-07-15 22:55:04",
   "_usuarios": 221,
   "_cabinas": 99,
   "usuarios": {
@@ -129,7 +129,7 @@
     "375": ["Staff", "Gamma"],
     "376": ["Admin", ""],
     "377": ["Admin", ""],
-    "378": ["Supervisor", "Gamma"],
+    "378": ["Admin", ""],
     "382": ["Supervisor", "Beta"],
     "383": ["Staff", "Beta"],
     "384": ["Supervisor", "Alpha"],
