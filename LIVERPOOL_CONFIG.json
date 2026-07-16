@@ -1,0 +1,1316 @@
+{
+  "_esquema": "liverpool-permisos-v1",
+  "_generado": "2026-07-15 21:29:31",
+  "_fuente": "Template Liverpool / tab \"Usuarios\"",
+  "_resumen": {
+    "usuarios_publicados": 185,
+    "usuarios_inactivos_excluidos": 36,
+    "por_permiso": {
+      "Staff": 65,
+      "Admin": 56,
+      "Supervisor": 64
+    },
+    "por_marca": {
+      "Beta": 47,
+      "Alpha": 42,
+      "Gamma": 40
+    }
+  },
+  "usuarios": {
+    "230": {
+      "login": "pedroterlizzi@skingroup.com.mx",
+      "nombre": "pedroterlizzi@skingroup.com.mx",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "231": {
+      "login": "ceo@skingroup.com.mx",
+      "nombre": "Dr. Osvaldo Vázquez Martínez",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "232": {
+      "login": "asistente_direccion@skingroup.com.mx",
+      "nombre": "Mariel Nuñez",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "233": {
+      "login": "coordinacion_enfermeria@skingroup.com.mx",
+      "nombre": "Lorena Villarreal",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "234": {
+      "login": "supervision_farmacia@skingroup.com.mx",
+      "nombre": "Mayela Ramirez",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "236": {
+      "login": "natalia.azs93@gmail.com",
+      "nombre": "Natalia Aranza Zapata Salazar",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "240": {
+      "login": "reyna@puntoderma.com",
+      "nombre": "Maria Reyna Mata Delgado",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "244": {
+      "login": "angelacatete@puntoderma.com",
+      "nombre": "Angela Yamileth Catete Esquivel",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "245": {
+      "login": "alondraramirez@puntoderma.com",
+      "nombre": "Alondra Ramirez de la Cruz",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "248": {
+      "login": "alicia.ayala@puntoderma.com",
+      "nombre": "Alicia Elizabeth Ayala Sandoval",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "251": {
+      "login": "brayantmartinez@skingroup.com.mx",
+      "nombre": "Dr. Brayant Martinez Jaramillo",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "252": {
+      "login": "lizzethfigueroa@skingroup.com.mx",
+      "nombre": "Dra. Lizzeth Figueroa Morales",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "254": {
+      "login": "dradalsantana@skingroup.com.mx",
+      "nombre": "Dr. Adalberto Santana Gutiérrez",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "255": {
+      "login": "jorgeperez@skingroup.com.mx",
+      "nombre": "Dr. Jorge Gil Perez Vazquez",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "256": {
+      "login": "karladoria@skingroup.com.mx",
+      "nombre": "Dra. Karla Michelle Doria Perez",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "257": {
+      "login": "patriziaaguilar@skingroup.com.mx",
+      "nombre": "Dra. Patrizia Elva Aguilar Calderon",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "258": {
+      "login": "monicapineda@skingroup.com.mx",
+      "nombre": "Dra. Monica Cristina Pineda Lemus",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "259": {
+      "login": "davidkubelis@skingroup.com.mx",
+      "nombre": "Dr. David Emmanuel Kubelis Lopez",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "260": {
+      "login": "llibranreyna@skingroup.com.mx",
+      "nombre": "Dr. Irving Llibran Reyna Rodriguez",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "273": {
+      "login": "pedrohta@gmail.com",
+      "nombre": "Dr. Fulano Test",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "275": {
+      "login": "laura.rodriguez@puntoderma.com",
+      "nombre": "Laura Alejandra Rodriguez",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "279": {
+      "login": "contabilidad_impuestos@skingroup.com.mx",
+      "nombre": "Cristina Gonzalez",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "282": {
+      "login": "community.3@skingroup.com.mx",
+      "nombre": "Ximena Martinez",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "283": {
+      "login": "diseno@skingroup.com.mx",
+      "nombre": "Patricio Quevedo",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "294": {
+      "login": "admin_valle@skingroup.com.mx",
+      "nombre": "Anahi Acosta Fuentes",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "295": {
+      "login": "consuelo.felix@skingroup.com.mx",
+      "nombre": "Consuelo Guadalupe Félix Jacobo",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "296": {
+      "login": "sistemas_aux@skingroup.com.mx",
+      "nombre": "Victor Pacheco De la Cruz",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "297": {
+      "login": "jefatura_comercial@skingroup.com.mx",
+      "nombre": "Orlando Casanova Barrios",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "299": {
+      "login": "Victordeluna117@gmail.com",
+      "nombre": "DR X",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "301": {
+      "login": "sistemas_aux2@skingroup.com.mx",
+      "nombre": "Victor Daniel Rodriguez Luna",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "302": {
+      "login": "eimygabriela3@gmail.com",
+      "nombre": "Eimy Gabriela Hernandez Limon",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "307": {
+      "login": "luiscruz@skingroup.com.mx",
+      "nombre": "Dr. Luis Gerardo Cruz Gomez",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "308": {
+      "login": "eimy.hernandez@puntoderma.mx",
+      "nombre": "Eimy Hernandez Limon",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "309": {
+      "login": "eimy.hernandez@puntoderma.com",
+      "nombre": "Eimy Gabriela Hernandez Limon",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "310": {
+      "login": "karla.ramos@puntoderma.com",
+      "nombre": "Karla Daniela Ramos Hernandez",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "311": {
+      "login": "fernanda.escalante@puntoderma.com",
+      "nombre": "Maria Fernanda Escalante Eugenio",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "312": {
+      "login": "gerardo.gonzalez@skingroup.com.mx",
+      "nombre": "Dr. Gerardo Gonzalez Martinez",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "313": {
+      "login": "daniel.villareal@skingroup.com.mx",
+      "nombre": "Dr. Daniel Zacarias Villareal Martinez",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "314": {
+      "login": "argelia.castillo@puntoderma.com",
+      "nombre": "Maria Argelia Castillo Recio",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "315": {
+      "login": "alondra.mendoza@skingroup.mx",
+      "nombre": "Alondra Esmeralda Mendoza Belmares",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "316": {
+      "login": "aleida.urbina@skingroup.mx",
+      "nombre": "Aleida Madai Urbina Cárdenas",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "317": {
+      "login": "fernanda.palacios@skingroup.mx",
+      "nombre": "María Fernanda Palacios Flores",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "318": {
+      "login": "gilberto.lopez@skingroup.com.mx",
+      "nombre": "Gilberto López Mireles",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "319": {
+      "login": "karina.garcia@skingroup.mx",
+      "nombre": "Karina Guadalupe Garcia Hernandez",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "320": {
+      "login": "diana.rodriguez@skingroup.mx",
+      "nombre": "Diana Maciel Rodriguez Torres",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "321": {
+      "login": "roberto.sosa@skingroup.mx",
+      "nombre": "Roberto Sosa Rodríguez",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "322": {
+      "login": "adriana.navarro@skingroup.mx",
+      "nombre": "Adriana Navarro Vargas",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "324": {
+      "login": "danae.sanchez@skingroup.mx",
+      "nombre": "Maxine Danae Sanchez Jimenez",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "325": {
+      "login": "mjose.gonzalez@skingroup.mx",
+      "nombre": "María Jose Gonzalez Mojarro",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "326": {
+      "login": "fanny.chacon@skingroup.mx",
+      "nombre": "Fanny Michaelle Chacón Garcia",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "328": {
+      "login": "gustavogutierrez@skingroup.com.mx",
+      "nombre": "Dr. Gustavo Gutiérrez del Bosque",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "329": {
+      "login": "cinthyamartinez@skingroup.com.mx",
+      "nombre": "Dra. Cinthya Krisel Martinez Avalos",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "330": {
+      "login": "lilianazamora@skingroup.com.mx",
+      "nombre": "Dra. Liliana Zamora Perez",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "331": {
+      "login": "lorenazamora@skingroup.com.mx",
+      "nombre": "Dra. Lorena Zamora Perez",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "332": {
+      "login": "andreaclaudie@skingroup.com.mx",
+      "nombre": "Dra. Andrea Claudie Marquez",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "334": {
+      "login": "mariaarroyo@skingroup.com.mx",
+      "nombre": "Dra. Maria Xose Arroyo Lopez",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "335": {
+      "login": "gustavoantolin@skingroup.com.mx",
+      "nombre": "Dr. Gustavo Antolin Silva Flores",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "336": {
+      "login": "admin.campa@skingroup.com.mx",
+      "nombre": "Cassandra Soraya Orozco Neri",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "338": {
+      "login": "livier.sanchez@skingroup.mx",
+      "nombre": "Livier Vazquez Sanchez",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "339": {
+      "login": "sayra.lujan@skingroup.mx",
+      "nombre": "Sayra Guadalupe Lujan Vargas",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "340": {
+      "login": "dra.ceciprieto@skingroup.mx",
+      "nombre": "Dra. Cecilia Prieto",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "341": {
+      "login": "nataliazapata@skingroup.com.mx",
+      "nombre": "Dra. Natalia Aranza Zapata Salazar",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "342": {
+      "login": "jessica.gutierrez@skingroup.mx",
+      "nombre": "Jessica Estefania Gutierrez Ramirez",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "344": {
+      "login": "analista.datos@skingroup.com.mx",
+      "nombre": "Brian Guadalupe Delgado Martínez",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "347": {
+      "login": "daniela.martinez@puntoderma.com",
+      "nombre": "Daniela Martinez Moreno",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "348": {
+      "login": "alma.nevarez@puntoderma.com",
+      "nombre": "Alma Krisel Nevarez Nevarez",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "350": {
+      "login": "rosa.mata@skingroup.com.mx",
+      "nombre": "Rosa Maria Mata Delgado",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "351": {
+      "login": "daniela.sanchez@puntoderma.com",
+      "nombre": "Daniela Paola Sanchez Mares",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "352": {
+      "login": "andrea.zuniga@puntoderma.com",
+      "nombre": "Andrea Lizeth Zuñiga Silva",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "353": {
+      "login": "miranda.delapena@puntoderma.com",
+      "nombre": "Miranda Guadalupe de la Peña Ortiz",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "354": {
+      "login": "diana.garcia@puntoderma.com",
+      "nombre": "Diana Leida Berenice Garcia Hernandez",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "355": {
+      "login": "leslie.pantoja@puntoderma.com",
+      "nombre": "Leslie Paola Pantoja Hernandez",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "356": {
+      "login": "dafne.guerrero@puntoderma.com",
+      "nombre": "Dafne Monserrat Guerrero Martinez",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "357": {
+      "login": "isabel.reyes@puntoderma.com",
+      "nombre": "Isabel Reyes Martinez",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "358": {
+      "login": "german.juanicotena@skingroup.com.mx",
+      "nombre": "Dr. German Juanicotena Madrigal",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "359": {
+      "login": "cindy.lopez@puntoderma.com",
+      "nombre": "Cindy Lopez",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "360": {
+      "login": "mariana.zamarron@skingroup.mx",
+      "nombre": "Mariana Zamarron",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "361": {
+      "login": "alejandro.ramos@puntoderma.com",
+      "nombre": "Emmanuel Alejandro Ramos de la Cerda",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "362": {
+      "login": "yadira.ferino@skingroup.mx",
+      "nombre": "Irais Yadira Ferino Guadalupe",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "363": {
+      "login": "alexa.nijenda@skingroup.mx",
+      "nombre": "Alexa Pamela Nijenda Carillo",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "364": {
+      "login": "debanhi.cortes@skingroup.mx",
+      "nombre": "Debanhi Alejandra Cortes Gonzalez",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "365": {
+      "login": "rebeca.fuentes@skingroup.mx",
+      "nombre": "Rebeca Fuentes",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "366": {
+      "login": "gerencia_administracion@skingroup.com.mx",
+      "nombre": "Alejandro Galván Salazar",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "367": {
+      "login": "cesarramos@skingroup.com.mx",
+      "nombre": "Dr. Cesar Jair Ramos Cavazos",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "368": {
+      "login": "diegoperez@skingroup.com.mx",
+      "nombre": "Dr. Diego Olin Perez Rojas",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "369": {
+      "login": "planeacion_operacion@neolabma.com",
+      "nombre": "Samuel Morales",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "370": {
+      "login": "draanacecilia@skingroup.com.mx",
+      "nombre": "Dra. Ana Cecilia Lamadrid Zertuche",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "371": {
+      "login": "dremmanuelsanchez@skingroup.com.mx",
+      "nombre": "Dr. Emmanuel Sanchez Meza",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "372": {
+      "login": "drjorgearmando@skingroup.com.mx",
+      "nombre": "Dr. Jorge Armando Enriquez Rojas",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "373": {
+      "login": "drakarlaandrade@skingroup.com.mx",
+      "nombre": "Dra. Karla Michelle Vargas Andrade",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "374": {
+      "login": "dralarissaflores@skingroup.com.mx",
+      "nombre": "Dra. Larissa Zarate Flores",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "375": {
+      "login": "drluisyamallel@skingroup.com.mx",
+      "nombre": "Dr. Luis Ángel Yamallel",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "376": {
+      "login": "drvictorlopez@skingroup.com.mx",
+      "nombre": "Dr. Víctor Hugo Ávila López",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "377": {
+      "login": "dravioletaserrano@skingroup.com.mx",
+      "nombre": "Dra. Violeta María García Serrano",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "378": {
+      "login": "drpuntodermampro@skingroup.com.mx",
+      "nombre": "Dr. Punto Derma Medicos Pro",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "382": {
+      "login": "facturacion@skingroup.com.mx",
+      "nombre": "Diego Felipe Arizaga Meza",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "383": {
+      "login": "vicenta.hernandez@skingroup.mx",
+      "nombre": "Vicenta Hernandez Carrizales",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "384": {
+      "login": "alejandra.lopez@skingroup.mx",
+      "nombre": "Alejandra Lopez Castro",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "385": {
+      "login": "alondra.martinez@puntoderma.com",
+      "nombre": "Alondra Elizabeth Martinez Gutierrez",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "386": {
+      "login": "mireya.viera@skingroup.mx",
+      "nombre": "Mireya Viera Rodriguez",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "387": {
+      "login": "dominga.flores@skingroup.mx",
+      "nombre": "Dominga Flores Torres",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "388": {
+      "login": "olga.garibay@skingroup.mx",
+      "nombre": "Olga Garibay Rodriguez",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "389": {
+      "login": "zeomara.zavala@skingroup.mx",
+      "nombre": "Zeomara Zavala Contreras",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "390": {
+      "login": "aide.ornelas@skingroup.mx",
+      "nombre": "Aide Ornelas Venegas",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "391": {
+      "login": "sheila.cabello@skingroup.mx",
+      "nombre": "Sheila Sarai Cabello Rivera",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "392": {
+      "login": "daphne.cano@skingroup.mx",
+      "nombre": "Daphne Michelle Cano Torres",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "393": {
+      "login": "lizeth.rubalcava@skingroup.mx",
+      "nombre": "Lizeth Rubalcava de Leon",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "394": {
+      "login": "monica.menchaca@skingroup.mx",
+      "nombre": "Monica Alejandra Menchaca Guerra",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "395": {
+      "login": "marlen.morales@skingroup.mx",
+      "nombre": "Marlen Carolina Morales Morales",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "396": {
+      "login": "lorena.villarreal@skingroup.mx",
+      "nombre": "Enf Lorena Elizabeth Villarreal Rodriguez",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "397": {
+      "login": "sofia.lucio@skingroup.mx",
+      "nombre": "Enf Ana Sofia Lucio Guevara",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "398": {
+      "login": "andrea.castillo@skingroup.mx",
+      "nombre": "Enf Andrea Berenice Castillo Garcia",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "399": {
+      "login": "maria.posada@skingroup.mx",
+      "nombre": "Enf Maria Fernanda Posada Ledezma",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "400": {
+      "login": "elvira.contreras@skingroup.mx",
+      "nombre": "Enf Elvira Contreras Rodriguez",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "401": {
+      "login": "elisa.hernandez@skingroup.mx",
+      "nombre": "Enf Elisa Judith Hernandez Morales",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "402": {
+      "login": "andrea.salas@skingroup.mx",
+      "nombre": "Enf Andrea Lucero Salas Jaramillo",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "403": {
+      "login": "lucero.nunez@skingroup.mx",
+      "nombre": "Lucero Nuñez Serna",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "404": {
+      "login": "scarlet.rocha@skingroup.mx",
+      "nombre": "Lesli Scarlet Rocha Mora",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "405": {
+      "login": "janett.castro@skingroup.mx",
+      "nombre": "Janett Monserrat Castro Ruiz",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "406": {
+      "login": "ingrid.martinez@skingroup.mx",
+      "nombre": "Ingrid Astrid Martínez Martinez",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "407": {
+      "login": "adriana.charles@puntoderma.com",
+      "nombre": "Adriana Charles Aviles",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "408": {
+      "login": "jessicamartinez@skingroup.com.mx",
+      "nombre": "Dra. Jessica Carolina Martínez Rico",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "409": {
+      "login": "sandrafernandez@skingroup.com.mx",
+      "nombre": "Dra. Sandra Denisse Fernadez Samar",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "410": {
+      "login": "alejandravillareal@skingroup.com.mx",
+      "nombre": "Dra. Alejandra Villarreal Martinez",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "411": {
+      "login": "kurtdiaz@skingroup.com.mx",
+      "nombre": "Dr. Kurt Díaz Garza",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "412": {
+      "login": "carlosrodriguez@skingroup.com.mx",
+      "nombre": "Dr. Carlos Eduardo Rodriguez Rodriguez",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "413": {
+      "login": "faniamunoz@skingroup.com.mx",
+      "nombre": "Dra. Fania Muñoz Garza",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "414": {
+      "login": "soniachavez@skingroup.com.mx",
+      "nombre": "Dra. Sonia Chavez Alvarez",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "415": {
+      "login": "arturoregalado@skingroup.com.mx",
+      "nombre": "Dr. Arturo Regalado Bryz",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "416": {
+      "login": "rubicelagarza@skingroup.com.mx",
+      "nombre": "Dra. Rubicela Garza Garza",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "417": {
+      "login": "jacquelineaguirre@skingroup.com.mx",
+      "nombre": "Dra. Jacqueline Paulina Aguirre Sotelo",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "419": {
+      "login": "dr_alberto_avila@skingroup.com.mx",
+      "nombre": "Dr. Alberto Avila Lozano",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "421": {
+      "login": "iramgonzalez@skingroup.com.mx",
+      "nombre": "Dr. Iram Zeyn González Vargas",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "422": {
+      "login": "procedimientos@skingroup.com.mx",
+      "nombre": "PROCEDIMIENTOS",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "423": {
+      "login": "angelarosales@skingroup.com.mx",
+      "nombre": "Dra. Angela Rosales Sotomayor",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "424": {
+      "login": "dianazamora@skingroup.com.mx",
+      "nombre": "Dra. Diana Miroslava Zamora Benze",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "425": {
+      "login": "beatrizreyes@skingroup.com.mx",
+      "nombre": "Dra. Beatriz Reyes Juarez",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "428": {
+      "login": "guillermoaguirre@skingroup.com.mx",
+      "nombre": "Dr. Guillermo Aguirre",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "429": {
+      "login": "alvargarcia@skingroup.com.mx",
+      "nombre": "Dr. Alvar Garcia",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "430": {
+      "login": "raquelvera@skingroup.com.mx",
+      "nombre": "Dra. Raquel Maria Vera Rodriguez",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "431": {
+      "login": "nayraavina@skingroup.com.mx",
+      "nombre": "Dra. Nayra Aviña Padilla",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "434": {
+      "login": "perla.martinez@skingroup.mx",
+      "nombre": "Perla Martínez Romero",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "436": {
+      "login": "recepciona1@skingroup.mx",
+      "nombre": "Recepcion Amazonas 1",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "437": {
+      "login": "recepciona2@skingroup.mx",
+      "nombre": "Recepcion Amazonas 2",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "438": {
+      "login": "recepcionc1@skingroup.mx",
+      "nombre": "Recepcion Campa 1",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "439": {
+      "login": "recepcionc2@skingroup.mx",
+      "nombre": "Recepcion Campa 2",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "440": {
+      "login": "recepcionsn1.1@puntoderma.com",
+      "nombre": "Recepcion SN1-1",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "441": {
+      "login": "recepcionsn2.1@puntoderma.com",
+      "nombre": "Recepcion SN2-1",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "442": {
+      "login": "recepcionsn2.2@puntoderma.com",
+      "nombre": "Recepcion SN2-2",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "444": {
+      "login": "galilea.reyna@skingroup.mx",
+      "nombre": "Galilea Wendoly Reyna Calderon",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "445": {
+      "login": "leslie.garza@skingroup.com.mx",
+      "nombre": "Dra. Leslie Monserrat Garza Garcia",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "446": {
+      "login": "rosa.guerrero@puntoderma.com",
+      "nombre": "Rosa Elvia Guerrero Montes",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "447": {
+      "login": "gabriela.martinez@skingroup.mx",
+      "nombre": "Ana Gabriela",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "448": {
+      "login": "gabriela.aceves@skingroup.mx",
+      "nombre": "Gabriela Yaneth",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "449": {
+      "login": "michelle.antonio@skingroup.com.mx",
+      "nombre": "Michelle Antonio Antonio",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "450": {
+      "login": "tania.guzman@skingroup.com.mx",
+      "nombre": "Dra. Tania Carey Guzmán Ochoa",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "451": {
+      "login": "nayeli.cantu@skingroup.com.mx",
+      "nombre": "Nayeli Guadalupe Cantu Sanjuanero",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "452": {
+      "login": "abigail.gonzalez@skingroup.com.mx",
+      "nombre": "Dra. Abigail González Morales",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "453": {
+      "login": "vanesa.rodriguez@skingroup.com.mx",
+      "nombre": "Lesslie Vanesa Rodriguez Torres",
+      "permiso": "Staff",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "454": {
+      "login": "rubicela.garza@skingroup.com.mx",
+      "nombre": "Dra. Rubicela Garza Garza",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "456": {
+      "login": "fatima.sanchez@skingroup.mx",
+      "nombre": "Fatima Priscila Sanchez Saldivar",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "457": {
+      "login": "fatima.sanchez@puntoderma.com",
+      "nombre": "Fatima Priscila Sanchez Saldivar",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "458": {
+      "login": "temp@gmail.com",
+      "nombre": "temp",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "459": {
+      "login": "doctor_generico@skingroup.com",
+      "nombre": "Dr. Skingroup Medicos Pro",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "460": {
+      "login": "comunicacion@skingroup.com.mx",
+      "nombre": "Mauricio Vazquez",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "461": {
+      "login": "cristina.ibarra@skingroup.mx",
+      "nombre": "Cristina Ibarra",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "462": {
+      "login": "guadalupe.rodriguez@skingroup.mx",
+      "nombre": "Guadalupe Rodriguez",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "463": {
+      "login": "communitymelanie@skingroup.com.mx",
+      "nombre": "Melanie Esthefanía Costilla Auces",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "464": {
+      "login": "cristina.ibarra@skingroup.com.mx",
+      "nombre": "Cristina Ibarra",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "465": {
+      "login": "tania.moya@skingroup.mx",
+      "nombre": "Enf Tania Isabel Moya Hernandez",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "466": {
+      "login": "claudiaflores@skingroup.mx",
+      "nombre": "Claudia Flores",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "467": {
+      "login": "guadalupelirio@skingroup.mx",
+      "nombre": "Guadalupe Lirio",
+      "permiso": "Supervisor",
+      "marca": "Beta",
+      "activo": true
+    },
+    "468": {
+      "login": "Sandraibarra@skingroup.mx",
+      "nombre": "Sandra Patricia Ibarra",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "469": {
+      "login": "susanahuerta@skingroup.mx",
+      "nombre": "Susana Huerta",
+      "permiso": "Supervisor",
+      "marca": "Alpha",
+      "activo": true
+    },
+    "470": {
+      "login": "sabinaperez@skingroup.mx",
+      "nombre": "SABINA YARELY",
+      "permiso": "Staff",
+      "marca": "Beta",
+      "activo": true
+    },
+    "471": {
+      "login": "lucerodiaz@skingroup.mx",
+      "nombre": "LUCERO PAOLA",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "472": {
+      "login": "brizeidymorales@skingroup.mx",
+      "nombre": "BRIZEIDY AGLAEE",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "473": {
+      "login": "rosalindag@skingroup.mx",
+      "nombre": "Rosalinda Garza",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "474": {
+      "login": "karlag@skingroup.mx",
+      "nombre": "Karla Gabriela Betacourt",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "475": {
+      "login": "almardz@skingroup.mx",
+      "nombre": "ALMA NELLY",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "476": {
+      "login": "biancasantos@skingroup.mx",
+      "nombre": "Bianca Yermin De Santiago Santos",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "478": {
+      "login": "communitynelly@skingroup.com.mx",
+      "nombre": "Nelly Carolina",
+      "permiso": "Supervisor",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "479": {
+      "login": "communityximena@skingroup.com.mx",
+      "nombre": "Maria Ximena",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    },
+    "480": {
+      "login": "socialmedia@skingroup.com.mx",
+      "nombre": "Angel Arturo",
+      "permiso": "Staff",
+      "marca": "Gamma",
+      "activo": true
+    },
+    "483": {
+      "login": "paulina.espindola@sgcells.com",
+      "nombre": "Paulina Espindola",
+      "permiso": "Admin",
+      "marca": "",
+      "activo": true
+    }
+  }
+}
