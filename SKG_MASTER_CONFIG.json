@@ -2,7 +2,7 @@
   "EngineName": "BI Growmetrica",
   "EngineVersion": "GM_ENGINE_V1",
   "EngineEnvironment": "production",
-  "EngineActive": true,
+  "EngineActive": false,
   "EngineCorporateClinicOrder": [
     1,
     2,
